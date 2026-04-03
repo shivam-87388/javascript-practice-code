@@ -18,3 +18,12 @@ console.log(product);
 
 // print the product name
 console.log(product.name);
+
+// make a object name is profile  with following details: username, followers, follow or not follow, bio
+const profile ={
+    userName: "Shivam Singh",
+    follow: true,
+    followers: 1200,
+    bio: "i am full stack developer and ui/ux developer",
+}
+console.log(profile);
