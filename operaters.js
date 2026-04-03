@@ -13,3 +13,10 @@ let c = 24;
 let d = 12;
 let sum = c+d;
 console.log(sum);
+
+console.log("a=",a, "b=",b);
+console.log("a+b=", a+b);
+console.log("a-b=", a-b);
+console.log("a/b=", a/b);
+console.log("a*b=", a*b);
+
