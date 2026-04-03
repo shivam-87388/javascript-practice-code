@@ -27,3 +27,12 @@ const profile ={
     bio: "i am full stack developer and ui/ux developer",
 }
 console.log(profile);
+
+// make a object  for an order info details: fooditeam, price develired or not , rating//
+const order={
+    foodName:"Dosa",
+    price: 100,
+    deliverded: false,
+    rating:4.5,
+}
+console.log(order);
