@@ -3,7 +3,7 @@
 what is operends 
 opereands are values which is given like any no aur any veriable like a ,b,c
 
-arithmetic operaters
+#1 arithmetic operaters
 addation +
 subtraction - 
 multiplication *
@@ -68,5 +68,15 @@ console.log("the value of a is", a)
 let b = 6;
 console.log("--b", --b); // first the value of b is decremented by 1 and then it is given
 console.log("the value of b is", b) 
+
+/*#2 assignment operator
+assignement operator is used to assign a value to a variable
+these are assignment assignment operator:
+=,+=,-=,*=,/=,%=,**=
+
+let x = 2;
+let y = 3;
+console.log()
+operator  examples result*/
 
 
