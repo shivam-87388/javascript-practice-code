@@ -79,4 +79,19 @@ let y = 3;
 console.log()
 operator  examples result*/
 
+//conditional statements 
+
+//if statement 
+
+let age = 19;
+{
+    if (age >=18)
+    console.log("eligible for dl");
+    
+    if (age < 18)
+    console.log("Not eligible for dl");
+}
+    
+} 
+
 
