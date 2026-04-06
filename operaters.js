@@ -50,7 +50,7 @@ console.log("a**b=", a**b);
 console.log("a%b=", a%b); */
 
 //post increment in addation
-let x = 2;
+/* let x = 2;
 console.log("x++", x++); // first the value of x is given and then it is incremented by 1
 console.log("the value of x is", x)
  
@@ -83,15 +83,24 @@ operator  examples result*/
 
 //if statement 
 
-let age = 19;
+/*let age = 19;
 {
     if (age >=18)
     console.log("eligible for dl");
     
     if (age < 18)
     console.log("Not eligible for dl");
-}
-    
-} 
+}*/
+
+    //if else statement 
+ let age = 17;
+ {
+    if (age>=18)
+        console.log("eligible for dl");
+    else
+        console.log("Not eligible for dl");
+
+ }
+
 
 
