@@ -93,14 +93,14 @@ operator  examples result*/
 }*/
 
     //if else statement 
- let age = 17;
+ /*let age = 17;
  {
     if (age>=18)
         console.log("eligible for dl");
     else
         console.log("Not eligible for dl");
 
- }
+ }*/
 
 
 
