@@ -33,12 +33,20 @@ do {
    }  
  }*/
 
-   let game = 25;
+  /* let game = 25;
    let userNum = prompt("choose the number:");
    while (userNum !== game){
     
    }
-   console.log("write number")
+   console.log("write number")*/
+
+   //string value
+   let str = "my name is shivam singh";
+   //print the length of string
+console.log(str.length);
+//print thee index number of the string
+console.log(str[1])
+
 
  
  
