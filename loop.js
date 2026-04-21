@@ -41,11 +41,13 @@ do {
    console.log("write number")*/
 
    //string value
-   let str = "my name is shivam singh";
+   let str = "shivam";
    //print the length of string
 console.log(str.length);
 //print thee index number of the string
 console.log(str[1])
+//
+console.log(str.slice(0,5))
 
 
  
