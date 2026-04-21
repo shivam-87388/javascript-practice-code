@@ -18,10 +18,29 @@ while (i<=5){
 }*/
 
 //do while loop
-let i = 5
+/*let i = 5
 do {
     console.log(i);
     i++;
 }
- while (i<=10);
+ while (i<=10);*/
+
+ //print the even no 1 to 100
+ /*let num;
+ for (num=1;num<=100;num++){
+   if (num%2===0){
+   console.log(num);
+   }  
+ }*/
+
+   let game = 25;
+   let userNum = prompt("choose the number:");
+   while (userNum !== game){
+    
+   }
+   console.log("write number")
+
+ 
+ 
+
 
