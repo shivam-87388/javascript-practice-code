@@ -49,8 +49,15 @@ console.log(str[1])
 //
 console.log(str.slice(0,5))
 
+//make star pattern 
+let star = "5";
+for (star=1; star<=5;star++){
+    console.log("*".repeat(star));
+}
 
- 
+
+
+
  
 
 
