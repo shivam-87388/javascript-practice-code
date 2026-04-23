@@ -19,3 +19,7 @@ console.log(name.slice(2,4));
 let firstName = "shivam";
 lastName ="singh";
 console.log("full name :",firstName.concat(lastName));
+
+//replace any prt in string
+// variable name .replace(change jisko krna hai vo value,aur new value)
+console.log(name.replace("singh","Singh"));
