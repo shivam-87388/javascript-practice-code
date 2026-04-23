@@ -14,5 +14,5 @@ console.log(arr.length);
 
 // index ois starting from 0
 // print the index of array
-console.log(arr.);
+
 
