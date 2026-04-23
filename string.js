@@ -26,3 +26,9 @@ console.log(name.replace("singh","Singh"));
 
 //print a single character by index no
 console.log(name.charAt( 2 ));
+
+/*practice ques: Prompt the user to enter their full name. Generate a username for them based on the input.
+Start username with @, followed by their full name and ending with the fullname length.
+eg: user name = “shivamsingh” , username should be “@shivamsingh1a”*/
+let userName = "shivamsingh";
+console.log("@"+userName.toUpperCase() + userName.length);

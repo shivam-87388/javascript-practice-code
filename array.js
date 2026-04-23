@@ -15,5 +15,3 @@ console.log(arr.length);
 // index ois starting from 0
 // print the index of array
 
-let userName = "shivamsingh";
-console.log("@"+userName.toUpperCase() + userName.length);
