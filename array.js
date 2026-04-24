@@ -14,4 +14,11 @@ console.log(arr.length);
 
 // index number is starting from 0
 // print the index of array
+console.log(arr[1]);
+
+// sum of a array
+let array = [25,26,45,35];
+
+sum = 0;
+for{()}
 
