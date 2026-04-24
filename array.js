@@ -12,6 +12,6 @@ console.log(arr);
 
 console.log(arr.length);
 
-// index ois starting from 0
+// index number is starting from 0
 // print the index of array
 
