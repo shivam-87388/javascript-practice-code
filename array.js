@@ -17,9 +17,17 @@ console.log(arr.length);
 console.log(arr[1]);
 
 // sum of a array
-let array = [25,26,45,35];
+let array = [10,20,30];
 sum = 0;
 for( let i=0; i<array.length;i++){
     sum = sum+array[i];
 }
+
 console.log(sum);
+
+let movie=["supermam","batman","hitman"];
+for(let i=0;i<movie.length;i++){
+    moviname = movie[i];
+    
+}
+console.log(moviname);
