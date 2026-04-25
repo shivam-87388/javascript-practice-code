@@ -25,9 +25,13 @@ for( let i=0; i<array.length;i++){
 
 console.log(sum);
 
-let movie=["supermam","batman","hitman"];
-for(let i=0;i<movie.length;i++){
-    moviname = movie[i];
-    
+
+// average of the total number
+let marks = [20,30,40];
+for(let i=0;i<marks.length;i++){
+totalmarks=marks+marks[i];
+avg = marks/marks.length;
+
 }
-console.log(moviname);
+
+console.log(avg);
