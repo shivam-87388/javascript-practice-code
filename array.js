@@ -27,7 +27,7 @@ console.log(sum);
 
 
 let marks = [40, 25, 50, 80, 30, 45];
-avgmarks = 50;
+sum = 0;
 for(let i=0; i<marks.length;i++){
 
 }
