@@ -26,12 +26,11 @@ for( let i=0; i<array.length;i++){
 console.log(sum);
 
 
-// average of the total number
-let marks = [20,30,40];
-for(let i=0;i<marks.length;i++){
-totalmarks=marks+marks[i];
-avg = marks/marks.length;
+let item = [250,645,300,900,50];
 
+for (let i=0;i<item.length;i++){
+ 
 }
 
-console.log(avg);
+
+    
