@@ -26,11 +26,8 @@ for( let i=0; i<array.length;i++){
 console.log(sum);
 
 
-let item = [250,645,300,900,50];
+let marks = [40, 25, 50, 80, 30, 45];
 
-for (let i=0;i<item.length;i++){
- 
-}
 
 
     
