@@ -71,3 +71,6 @@ for(i=1;i<arr.length;i++){
 }
 console.log(minimun);*/
 
+let arr = [2,5,8,11,14];
+sum = 0;
+for(i=)
