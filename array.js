@@ -18,19 +18,22 @@ console.log(arr[1]);
 
 // sum of a array
 let array = [10,20,30];
-sum = 0;
+add = 0;
 for( let i=0; i<array.length;i++){
-    sum = sum+array[i];
+    add = add+array[i];
 }
 
-console.log(sum);
+console.log(add);
 
 
 let marks = [40, 25, 50, 80, 30, 45];
 sum = 0;
 for(let i=0; i<marks.length;i++){
-
+sum = sum+marks[i];
+if(){
+    
 }
-
+}
+console.log(sum);
 
     
