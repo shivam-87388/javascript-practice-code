@@ -30,8 +30,8 @@ let marks = [40, 25, 50, 80, 30, 45];
 sum = 0;
 for(let i=0; i<marks.length;i++){
 sum = sum+marks[i];
-if(){
-    
+if{
+
 }
 }
 console.log(sum);
