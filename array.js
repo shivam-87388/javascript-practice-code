@@ -49,15 +49,25 @@
 //    }
 // console.log(maxno);
 
-let marks = [40, 75, 50, 80, 30, 45];
-sum = 0;
+// let marks = [40, 75, 50, 80, 30, 45];
+// sum = 0;
 
-for(let i=0; i<marks.length;i++){
-sum = sum+marks[i];
-avg=sum/marks.length;
+// for(let i=0; i<marks.length;i++){
+// sum = sum+marks[i];
+// avg=sum/marks.length;
+// }
+// if(avg>=50){
+//     console.log("pass");
+// }else{
+//     console.log("fail");
+// }
+
+/*let arr =[10,520,3,8];
+minimun = arr[0];
+for(i=1;i<arr.length;i++){
+    if(minimun>arr[i]){
+        minimun=arr[i];
+    }
 }
-if(avg>=50){
-    console.log("pass");
-}else{
-    console.log("fail");
-}
+console.log(minimun);*/
+
