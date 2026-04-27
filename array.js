@@ -26,12 +26,7 @@
 // console.log(add);
 
 
-// let marks = [40, 25, 50, 80, 30, 45];
-// sum = 0;
-
-// for(let i=0; i<marks.length;i++){
-// sum = sum+marks[i];
-// avg=sum/marks.length;
+// 
 // if(avg>=50){
 //     console.log(pass);
 // }
@@ -42,7 +37,27 @@
     for(let i =0;i<arr.length;i++){
         console.log(arr[i]);
     }*/
-   /*Find max number*/
 
-   let arr [12, 45, 7, 89, 33];
-   
+
+   /*Find max number*/
+//    let arr = [12, 45, 7, 89, 33];
+//    max = arr[0];
+//    for(let i =1; i<arr.length;i++){
+//     if(max>arr[i]){
+
+//     }
+//    }
+// console.log(maxno);
+
+let marks = [40, 75, 50, 80, 30, 45];
+sum = 0;
+
+for(let i=0; i<marks.length;i++){
+sum = sum+marks[i];
+avg=sum/marks.length;
+}
+if(avg>=50){
+    console.log("pass");
+}else{
+    console.log("fail");
+}
