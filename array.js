@@ -1,39 +1,48 @@
-/*deceleration of array
-[23,24,34,"Shivam"]*/
+// /*deceleration of array
+// [23,24,34,"Shivam"]*/
 
-// make a variable of array
-let arr = [24,45,89,"Shivam"];
+// // make a variable of array
+// let arr = [24,45,89,"Shivam"];
 
-// print arry
-console.log(arr);
+// // print arry
+// console.log(arr);
 
-// length is starting from 1
-// print the array length
+// // length is starting from 1
+// // print the array length
 
-console.log(arr.length);
+// console.log(arr.length);
 
-// index number is starting from 0
-// print the index of array
-console.log(arr[1]);
+// // index number is starting from 0
+// // print the index of array
+// console.log(arr[1]);
 
-// sum of a array
-let array = [10,20,30];
-add = 0;
-for( let i=0; i<array.length;i++){
-    add = add+array[i];
-}
+// // sum of a array
+// let array = [10,20,30];
+// add = 0;
+// for( let i=0; i<array.length;i++){
+//     add = add+array[i];
+// }
 
-console.log(add);
+// console.log(add);
 
 
-let marks = [40, 25, 50, 80, 30, 45];
-sum = 0;
-for(let i=0; i<marks.length;i++){
-sum = sum+marks[i];
-if{
+// let marks = [40, 25, 50, 80, 30, 45];
+// sum = 0;
 
-}
-}
-console.log(sum);
+// for(let i=0; i<marks.length;i++){
+// sum = sum+marks[i];
+// avg=sum/marks.length;
+// if(avg>=50){
+//     console.log(pass);
+// }
+// }
 
-    
+/*Use loop to print each element.
+    let arr = [5, 10, 15];
+    for(let i =0;i<arr.length;i++){
+        console.log(arr[i]);
+    }*/
+   /*Find max number*/
+
+   let arr [12, 45, 7, 89, 33];
+   
