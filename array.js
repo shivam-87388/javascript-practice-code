@@ -98,12 +98,15 @@ console.log(index);
 
 //Jinki salary 30,000 se kam hai, unki seat par jaakar 5000 jodo aur Ye gino ki kitne logon ko bonus mila.
 let arr = [20000, 45000, 15000, 60000, 25000];
- bonus = 5000;
+count = 0;
+
 for (let i=0; i<arr.length;i++){
     if(arr[i]<=30000){
-     arr[i] = arr[i]+5000; 
+     arr[i] = arr[i]+5000;
+      count = count+1;
     
      console.log(i);
     }
 }
  console.log(arr);
+ console.log(count);
