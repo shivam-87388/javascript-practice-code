@@ -104,4 +104,3 @@ for (let i=0; i<arr.length;i++){
        bonus = bonus + arr[i];
     }
 }
-console.log(bonus);
