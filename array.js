@@ -79,11 +79,14 @@ console.log(minimun);*/
 // console.log(arr[i]);
 
 // find the index no of given colour
-let colour = ["red","blue","green","yellow"];
+/* colour = ["red","blue","green","yellow"];
 index = 0;
 for(let i = 0; i<colour.length;i++){
     if(colour[i]==="green"){
         index = i;
     }
 }
-console.log(index);
+console.log(index);*/
+
+// another method
+colour = ["red","blue","green","yellow"];
