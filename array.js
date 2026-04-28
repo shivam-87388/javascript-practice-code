@@ -71,8 +71,13 @@ for(i=1;i<arr.length;i++){
 }
 console.log(minimun);*/
 
-let arr = [2,5,8,11,14];
-sum = 0;
-for(i=0;i<arr.length;i++){
-  if()
-}
+// let arr = [2,5,8,11,14];
+// sum = 0;
+// for(i=0;i<arr.length;i++){
+ 
+// }
+// console.log(arr[i]);
+
+// find the index no of given colour
+let colour = ["red","blue","green","yellow"];
+index = 0;
