@@ -94,4 +94,4 @@ console.log(index);*/
 colour = ["red","blue","green","yellow"];
 index = colour.indexOf("green");
 console.log(index);
-
+*/
