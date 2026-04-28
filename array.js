@@ -101,6 +101,9 @@ let arr = [20000, 45000, 15000, 60000, 25000];
  bonus = 5000;
 for (let i=0; i<arr.length;i++){
     if(arr[i]<=30000){
-       bonus = bonus + arr[i];
+     arr[i] = arr[i]+5000; 
+    
+     console.log(i);
     }
 }
+ console.log(arr);
