@@ -95,3 +95,13 @@ colour = ["red","blue","green","yellow"];
 index = colour.indexOf("green");
 console.log(index);
 */
+
+//Jinki salary 30,000 se kam hai, unki seat par jaakar 5000 jodo aur Ye gino ki kitne logon ko bonus mila.
+let arr = [20000, 45000, 15000, 60000, 25000];
+ bonus = 5000;
+for (let i=0; i<arr.length;i++){
+    if(arr[i]<=30000){
+       bonus = bonus + arr[i];
+    }
+}
+console.log(bonus);
