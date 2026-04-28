@@ -89,4 +89,9 @@ for(let i = 0; i<colour.length;i++){
 console.log(index);*/
 
 // another method
+
+/*
 colour = ["red","blue","green","yellow"];
+index = colour.indexOf("green");
+console.log(index);
+
