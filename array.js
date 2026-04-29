@@ -112,5 +112,6 @@ for (let i=0; i<arr.length;i++){
  console.log(count);
 
  //add an element at end
- let fruit = ["banana","apple","watermalon","papaya"];
- 
+ let fruit = ["banana","apple","watermelon","papaya"];
+ fruit.push("grapes"); //add grapes at end
+ console.log(fruit);
