@@ -97,7 +97,7 @@ console.log(index);
 */
 
 //Jinki salary 30,000 se kam hai, unki seat par jaakar 5000 jodo aur Ye gino ki kitne logon ko bonus mila.
-let arr = [20000, 45000, 15000, 60000, 25000];
+/* let arr = [20000, 45000, 15000, 60000, 25000];
 count = 0;
 
 for (let i=0; i<arr.length;i++){
@@ -109,7 +109,7 @@ for (let i=0; i<arr.length;i++){
     }
 }
  console.log(arr);
- console.log(count);
+ console.log(count); */
 
  //add an element at end by push method
  /* let fruit = ["banana","apple","watermelon","papaya"];
@@ -118,5 +118,11 @@ for (let i=0; i<arr.length;i++){
 
   //remove an element at end by pop method
 /* let fruit = ["banana","apple","watermelon","papaya"];
-fruit.pop("papaya");//add grapes from end
+fruit.pop("papaya"); //remove grapes from end
 console.log(fruit); */
+
+ //add an element at starting by unshift method
+ let fruit = ["banana","apple","watermelon","papaya"];
+ fruit.unshift("grapes"); //add grapes at starting
+ console.log(fruit);
+ 
