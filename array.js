@@ -122,7 +122,11 @@ fruit.pop("papaya"); //remove grapes from end
 console.log(fruit); */
 
  //add an element at starting by unshift method
- let fruit = ["banana","apple","watermelon","papaya"];
+ /* let fruit = ["banana","apple","watermelon","papaya"];
  fruit.unshift("grapes"); //add grapes at starting
+ console.log(fruit); */
+
+ //remove an element from starting by shift method
+ let fruit = ["banana","apple","watermelon","papaya"];
+ fruit.shift("banana"); //remove banana from starting
  console.log(fruit);
- 
