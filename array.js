@@ -127,6 +127,12 @@ console.log(fruit); */
  console.log(fruit); */
 
  //remove an element from starting by shift method
- let fruit = ["banana","apple","watermelon","papaya"];
+ /* let fruit = ["banana","apple","watermelon","papaya"];
  fruit.shift("banana"); //remove banana from starting
- console.log(fruit);
+ console.log(fruit); */
+
+ //remove an element by using index number by using slice  method
+/* let fruit = ["banana","apple","watermelon","papaya"];
+fruit = fruit.slice(1,3); //remove element by using slice(staring index no, end index no) remember not include end index element
+ console.log(fruit); */
+ 
