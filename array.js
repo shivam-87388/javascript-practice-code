@@ -111,7 +111,12 @@ for (let i=0; i<arr.length;i++){
  console.log(arr);
  console.log(count);
 
- //add an element at end
- let fruit = ["banana","apple","watermelon","papaya"];
- fruit.push("grapes"); //add grapes at end
- console.log(fruit);
+ //add an element at end by push method
+ /* let fruit = ["banana","apple","watermelon","papaya"];
+ //fruit.push("grapes"); //add grapes at end
+ console.log(fruit); */
+
+  //remove an element at end by pop method
+/* let fruit = ["banana","apple","watermelon","papaya"];
+fruit.pop("papaya");//add grapes from end
+console.log(fruit); */
