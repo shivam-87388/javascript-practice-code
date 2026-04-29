@@ -110,3 +110,7 @@ for (let i=0; i<arr.length;i++){
 }
  console.log(arr);
  console.log(count);
+
+ //add an element at end
+ let fruit = ["banana","apple","watermalon","papaya"];
+ 
