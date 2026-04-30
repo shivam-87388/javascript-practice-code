@@ -144,5 +144,6 @@ console.log(fruit); */
 /* create an array to store companies : bloomberg , microsoft, uber, google, ibm, Netflix
  remove the first company from the array add add amazon company at the end */
  let companies = ["bloomberg","microsoft","uber","google","ibm","netflix"]
-companies.splice(0,1); //
+// remove the first company from the array
+ companies.splice(0,1); 
  console.log(companies);
