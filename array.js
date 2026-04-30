@@ -137,3 +137,4 @@ fruit = fruit.slice(1,3); //remove element by using slice(staring index no, end 
  console.log(fruit); */
  
  //add or remove an element by using index number by using splice  method
+let fruit = ["banana","apple","watermelon","papaya"];
