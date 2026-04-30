@@ -140,3 +140,9 @@ fruit = fruit.slice(1,3); //remove element by using slice(staring index no, end 
 /* let fruit = ["banana","apple","watermelon","papaya"];
 fruit.splice(1,2,"grapes","kiwi"); //remove element by using slice(staring index no, end index no, add element)
 console.log(fruit); */
+
+/* create an array to store companies : bloomberg , microsoft, uber, google, ibm, Netflix
+ remove the first company from the array add add amazon company at the end */
+ let companies = ["bloomberg","microsoft","uber","google","ibm","netflix"]
+companies.splice(0,1); //
+ console.log(companies);
