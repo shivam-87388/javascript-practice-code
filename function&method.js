@@ -6,8 +6,3 @@ return a+b;
 //function call
 sum(4,5) // this is called aarguments 
 
-let sum (a,b)=>{
-
-}
-console.log(sum)
-return a+b;
