@@ -1,6 +1,7 @@
 //function paramater are like local variables they are alive only on function block
 
 /* // deceleration of function
+//make a sum function
 function sum (a,b) { // this is called paramater where the pass the anything
 console.log(a+b);
 return a+b;
@@ -19,3 +20,17 @@ sum(4,5); // this is called aarguments
  console.log(multiplyResult);
  */
 
+ /*
+//  deceleration of arrow function
+use const or let = (paramater 1, paramater 2)=>{
+
+}
+*/
+
+// make a arrow function for sum
+let sum =(x,y)=>{
+    return x+y;
+};
+ //call arrow function
+let addition = sum(6+7);
+console.log(add);
