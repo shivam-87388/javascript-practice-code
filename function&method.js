@@ -32,5 +32,5 @@ let sum =(x,y)=>{
     return x+y;
 };
  //call arrow function
-let addition = sum(6+7);
-console.log(add);
+let addition = sum(6,7);
+console.log(addition);
