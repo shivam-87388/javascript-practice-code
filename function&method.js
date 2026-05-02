@@ -27,6 +27,7 @@ use const or let = (paramater 1, paramater 2)=>{
 }
 */
 
+/*
 // make a arrow function for sum
 let sum =(x,y)=>{
     return x+y;
@@ -34,3 +35,14 @@ let sum =(x,y)=>{
  //call arrow function
 let addition = sum(6,7);
 console.log(addition);
+*/
+
+/*
+// make a arrow function for multiplication
+let multiplication =(x,y)=>{
+    return x*y;
+};
+ //call arrow function
+let multiply = multiplication(6,7);
+console.log(multiply);
+*/
