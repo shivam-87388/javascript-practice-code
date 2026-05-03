@@ -48,3 +48,4 @@ console.log(multiply);
 */
 
 let letter = "apple";
+for(let i=0;i<letter.length;i++)
