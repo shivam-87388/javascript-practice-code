@@ -48,6 +48,11 @@ console.log(multiply);
 */
 
 let letter = "apple";
+count =0;
 for(let i=0;i<letter.length;i++){
 console.log(letter[i]);
+if(letter[i]=="a"){
+count = count+1;
 }
+}
+console.log(count)
