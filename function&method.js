@@ -46,3 +46,5 @@ let multiplication =(x,y)=>{
 let multiply = multiplication(6,7);
 console.log(multiply);
 */
+
+let letter = "apple";
