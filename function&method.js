@@ -64,6 +64,7 @@ let result = vowel_letter("shivam");
 console.log(result);
 */
 
+/*
 //  same above question solving by arrow function
 let  vowel_letter= (letter)=>{
  let count = 0;
@@ -77,3 +78,4 @@ return count;
 
 let result = vowel_letter("shivam");
 console.log(result);
+*/
