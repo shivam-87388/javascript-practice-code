@@ -47,7 +47,7 @@ let multiply = multiplication(6,7);
 console.log(multiply);
 */
 
-<<<<<<< HEAD
+
 //create a function using the function keyword that takes a string as an arguments & return the number of vowles in the string
 // function keyword (){
 //   if keyword ===
@@ -57,24 +57,9 @@ console.log(multiply);
 let keyword = "hello";
 count = 0;
 for(let i=0;i<keyword.length;i++){
-   
+    if(keyword[i]=="a"||keyword[i]=="e"||keyword[i]=="i"||keyword[i]=="o"||keyword[i]=="u"){
+        count= count+1;
+    }
+}
+console.log(count);
 
-}
-
-let fruit = "apple";
-count = 0;
-if(fruit== "a"||"e"||"i"||"o"||"u"){
-    
-
-}
-=======
-let letter = "apple";
-count =0;
-for(let i=0;i<letter.length;i++){
-console.log(letter[i]);
-if(letter[i]=="a"){
-count = count+1;
-}
-}
-console.log(count)
->>>>>>> 9fb96b43fde4f7965015c90f088454c159940950
