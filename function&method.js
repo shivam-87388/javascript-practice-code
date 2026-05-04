@@ -46,3 +46,23 @@ let multiplication =(x,y)=>{
 let multiply = multiplication(6,7);
 console.log(multiply);
 */
+
+//create a function using the function keyword that takes a string as an arguments & return the number of vowles in the string
+// function keyword (){
+//   if keyword ===
+// }
+// keyword("hero");
+
+let keyword = "hello";
+count = 0;
+for(let i=0;i<keyword.length;i++){
+   
+
+}
+
+let fruit = "apple";
+count = 0;
+if(fruit== "a"||"e"||"i"||"o"||"u"){
+    
+
+}
