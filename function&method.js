@@ -47,19 +47,23 @@ let multiply = multiplication(6,7);
 console.log(multiply);
 */
 
-
+/*
 //create a function using the function keyword that takes a string as an arguments & return the number of vowles in the string
-// function keyword (){
-//   if keyword ===
-// }
-// keyword("hero");
 
-let keyword = "hello";
-count = 0;
-for(let i=0;i<keyword.length;i++){
-    if(keyword[i]=="a"||keyword[i]=="e"||keyword[i]=="i"||keyword[i]=="o"||keyword[i]=="u"){
+function vowel_letter(letter){
+   let count = 0;
+for(let i=0;i<letter.length;i++){
+    if(letter[i]=="a"||letter[i]=="e"||letter[i]=="i"||letter[i]=="o"||letter[i]=="u"){
         count= count+1;
     }
+} 
+return count;
 }
-console.log(count);
+// call function
+let result = vowel_letter("shivam");
+console.log(result);
+*/
+
+
+
 
