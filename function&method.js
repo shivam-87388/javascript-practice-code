@@ -128,3 +128,12 @@ let squarenum= (num)=>{
 //call function
 squarenum([1,2,3,4,5]);
 */
+/*
+map method and foreach method both are siilar but map return new array foreach not return new arrray
+*/
+let arr =[1,2,3,4,5];
+let square;
+arr.map((val)=>{
+square = val*val;
+console.log(square);
+});
