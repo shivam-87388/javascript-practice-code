@@ -130,10 +130,18 @@ squarenum([1,2,3,4,5]);
 */
 /*
 map method and foreach method both are siilar but map return new array foreach not return new arrray
-*/
+
 let arr =[1,2,3,4,5];
-let square;
-arr.map((val)=>{
-square = val*val;
-console.log(square);
+let squarenum = arr.map((val)=>{
+return val*val;
 });
+console.log(squarenum);
+*/
+
+/* **we are given array of marks of students. filter out of the marks of the students that scored 90 above** */
+let marks  = [87,93,64,99,86];
+let newmarks = marks.filter((result) => {
+    return result >= 90;
+});
+
+console.log(newmarks);
