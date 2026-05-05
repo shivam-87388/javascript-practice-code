@@ -116,11 +116,15 @@ num.forEach((value) => {
    console.log(square); 
 });
 */
-
-let number = num.forEach((value) => {
-   square = value*value;
+/*
+use arrow method and call back function 
+let squarenum= (num)=>{
+    num.forEach((value) => {
+   let square = value*value;
    console.log(square); 
    return(square);
 });
+}
 //call function
-number =[2,4,5,7];
+squarenum([1,2,3,4,5]);
+*/
