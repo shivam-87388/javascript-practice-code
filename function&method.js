@@ -108,4 +108,10 @@ fruit.forEach((value,index,array) => {
     console.log(value,index,array);
 });
  */
-   
+
+/* **for a given array of numbers print the square of each value using the forEach loop */
+let num = [1,2,3,4];
+num.forEach((value,index,num) => {
+   square = value*value;
+   console.log(square); 
+});
