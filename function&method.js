@@ -109,9 +109,19 @@ fruit.forEach((value,index,array) => {
 });
  */
 
-/* **for a given array of numbers print the square of each value using the forEach loop */
-let num = [1,2,3,4];
-num.forEach((value,index,num) => {
+/* **for a given array of numbers print the square of each value using the forEach loop 
+let num =[1,2,3,4];
+num.forEach((value) => {
    square = value*value;
    console.log(square); 
 });
+*/
+
+num.forEach((value) => {
+   square = value*value;
+   console.log(square); 
+   return(square);
+});
+//call function
+let number=num(2,3,4,5);
+console.log();
