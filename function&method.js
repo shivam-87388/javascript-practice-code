@@ -138,10 +138,12 @@ return val*val;
 console.log(squarenum);
 */
 
-/* **we are given array of marks of students. filter out of the marks of the students that scored 90 above** */
+/* 
+**we are given array of marks of students. filter out of the marks of the students that scored 90 above** 
 let marks  = [87,93,64,99,86];
 let newmarks = marks.filter((result) => {
     return result >= 90;
 });
 
 console.log(newmarks);
+*/
