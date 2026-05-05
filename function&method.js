@@ -117,11 +117,10 @@ num.forEach((value) => {
 });
 */
 
-num.forEach((value) => {
+let number = num.forEach((value) => {
    square = value*value;
    console.log(square); 
    return(square);
 });
 //call function
-let number=num(2,3,4,5);
-console.log();
+number =[2,4,5,7];
