@@ -79,3 +79,23 @@ return count;
 let result = vowel_letter("shivam");
 console.log(result);
 */
+
+
+/*
+for each only works in array 
+for each ka work hai array ke har element pr jana aur jo kaam bola hai (function) use sabh element ke liye krna 
+for each deceleration 
+*/
+let fruit=["apple","banana","litchi","mango"];
+fruit.forEach(function(freshfruit){
+    console.log(freshfruit);
+});
+
+or another method 
+
+first make the function then aply for each method
+function fruit (fru){
+    console.log(fru);
+}
+apply for each method
+veggies.forEach(fruit);
