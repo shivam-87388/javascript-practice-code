@@ -147,3 +147,7 @@ let newmarks = marks.filter((result) => {
 
 console.log(newmarks);
 */
+let arr =  [23,45,34,67];
+arr.map((val){
+    
+});
