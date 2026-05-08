@@ -152,7 +152,7 @@ let newarray = arr.map((val)=>{
    return val>=30; 
 });
 console.log(newarray);
-let arr =  [23,45,34,67];
+
 
   
 
