@@ -220,5 +220,29 @@ const photo = async(id) =>{
           console.log("something wrong",error.message);  
         }
     }
-}; 
+};
+//call function 
 photo(100);
+
+/* Challenge 1: Ek User ke saare Posts
+Maqsad: Mujhe sirf User ID 2 ke posts chahiye.
+
+URL: https://jsonplaceholder.typicode.com/posts
+
+Filter: userId hona chahiye 2.
+
+Kaise likhna hai: axios.get(URL, { params: { userId: 2 } }) */
+const posts = async() => {
+    try{
+        const res = await axios.get(`https://jsonplaceholder.typicode.com/posts`,{
+            params:
+            {
+                
+            }
+        })
+    }
+    catch (error){
+
+    }
+};
+
