@@ -207,7 +207,7 @@ const chalange4= async() =>{
 /* Challenge 3: Photo ID 100 ka data nikalna hai (ID wala logic). */
 const photo = async(id) =>{
     try{
-        const res = await axios.get(`https://jsonplaceholder.typicode.com/post/${id}`);
+        const res = await axios.get(`https://jsonplaceholder.typicode.com/Posts/${id}`);
         console.log(res.data);
     }
     catch (error){
