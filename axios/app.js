@@ -138,7 +138,9 @@ Result: Mujhe console mein sirf Pehle 3 Posts (Index 0, 1, 2) ke titles chahiye.
 const post = async() =>{
 try{ 
     const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
-    console.log(res.data.index[0,1,2]);
+    console.log(res.data.index[0]);
+    console.log(res.data.index[1]);
+    console.log(res.data.index[2]);
 }
 catch (error){
     console.log(error.message);
