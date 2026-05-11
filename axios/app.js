@@ -161,3 +161,64 @@ catch (error){
     console.log(error.message);
 }
 };
+
+/* Challenge 3 (The Error Trap)
+Link: https://jsonplaceholder.typicode.com/invalid-data-path
+
+Result: Aapka code crash nahi hona chahiye. Console mein ek professional message aana chahiye: "Error: Resource not found (404)". */
+
+const challenge3 = async () => {
+    try{
+      const res = await axios.get("https://jsonplaceholder.typicode.com/invalid-data-path");
+      console.log(res.data);
+    }
+    catch (error){
+        console.log(error.response.status);
+    }
+};
+
+/* Challenge 4 (The Nested Data)
+Ab iska code likho, ismein aapko "Sidi" (Stairs) ki tarah niche utarna hai data nikalne ke liye.
+
+Link: https://jsonplaceholder.typicode.com/users/1 */
+
+const chalange4= async() =>{
+    try{
+        const res = await axios.get("https://jsonplaceholder.typicode.com/users/1")
+        console.log(res.data.address.street);
+        console.log(res.data.address.city);
+        console.log(res.data.address.zipcode);
+    }
+    catch (error){
+        if(error.message){
+         console.log(error.message);
+        }
+        if (error.response) {
+            console.log(error.response.status);
+        } 
+        else {
+          console.log("something wrong");  
+        }
+        
+        
+    }
+
+};
+/* Challenge 3: Photo ID 100 ka data nikalna hai (ID wala logic). */
+const photo = async(id) =>{
+    try{
+        const res = await axios.get(`https://jsonplaceholder.typicode.com/post/${id}`);
+        console.log(res.data);
+    }
+    catch (error){
+        
+        if (error.response) {
+            console.log(error.response.status);
+            console.log(error.response.data);
+        } 
+        else {
+          console.log("something wrong",error.message);  
+        }
+    }
+}; 
+photo(100);
