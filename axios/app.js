@@ -237,7 +237,7 @@ const posts = async() => {
         const res = await axios.get(`https://jsonplaceholder.typicode.com/posts`,{
             params:
             {
-                
+
             }
         })
     }
@@ -246,3 +246,23 @@ const posts = async() => {
     }
 };
 
+const axios = require('axios');
+
+const testParams = async () => {
+    try {
+        const res = await axios.get("https://jsonplaceholder.typicode.com/todos", {
+            // Bas ye dabba hi 'Params' hai, isme hum filter ki chabi (key) rakhte hain
+            params: {
+                completed: true
+            }
+        });
+
+        // Agar params ne kaam kiya, toh length 200 se kam aayegi
+        console.log("Total Filtered Data:", res.data.length); 
+        
+    } catch (error) {
+        console.log(error.message);
+    }
+};
+
+testParams();
