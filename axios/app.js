@@ -155,7 +155,7 @@ Result: Mujhe console mein dikhao ki Post ID 1 par total kitne comments hain? */
 const comments = async() => {
 try{
     const res = await axios.get("https://jsonplaceholder.typicode.com/comments?postId=1");
-    console.log(res.data.index.length);
+    console.log("total comments",res.data.length);
 }
 catch (error){
     console.log(error.message);
