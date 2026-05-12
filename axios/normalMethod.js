@@ -307,7 +307,7 @@ Maan lo aap Telibagh ki ek electronic shop ke liye software bana rahe ho.
 Zaroorat: Shop owner ko ek button dabate hi apne store ke saare mobile phones dekhne hain jo 'Samsung' brand ke hain.
 
 Socho: Kya yahan aap ek-ek mobile ki ID mangoge ya poori list par filter lagaoge? Isme aapka output Array [] hona chahiye ya Object {}? */
-const shop = async(company) =>{
+const shop1 = async(company) =>{
     try{
         const res = await axios.get("https://fakestoreapi.com/products",{
             params:{
@@ -316,6 +316,7 @@ const shop = async(company) =>{
             }
         })
         
+        console.log(res.data.length);
         console.log(res.data);
     }
     catch (error){
@@ -334,4 +335,19 @@ const shop = async(company) =>{
     }
 };
 // call function
-shop("samsung");
+shop1("samsung");
+
+/* Scenario B: Customer Profile Page (The "Specific" Task)
+Maan lo aapne Telibagh wali shop ke liye ek dashboard banaya hai.
+
+Zaroorat: Shop owner ke paas ek lambi list hai. Wo kisi ek specific customer ka poora kacha-chittha (address, phone, email) dekhna chahta hai.
+
+Data: Us customer ki unique ID hai 2. */
+const shop2 = async () => {
+    try {
+        
+    } catch (error) {
+        
+    }
+       
+};
