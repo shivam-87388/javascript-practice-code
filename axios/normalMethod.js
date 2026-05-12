@@ -311,7 +311,7 @@ const shop = async(company) =>{
     try{
         const res = await axios.get("https://fakestoreapi.com/products",{
             params:{
-                userId: company,
+                brand: company,
 
             }
         })
