@@ -39,16 +39,7 @@ try {
     }
 
 }; 
-const getUserById = async(id) =>{
-    try{
-        const res = await axios.get("https://jsonplaceholder.typicode.com/users/${id}");
-        console.log("result match");
-       
-    }
-    catch (error){
-        console.log(error);
-    }
-};
+
 
 const productData = async() =>{
 try{
@@ -77,23 +68,7 @@ catch (error){
     }
 };
 
-/* Task 2: Specific Data (ID wala)
-Scenario: Aapko sirf User ID 5 ka data chahiye.
 
-URL: https://jsonplaceholder.typicode.com/users/5
-
-Goal: Function ka naam getSingleUser rakho. Isme console mein print karo: "User mil gaya: " + res.data.name. */
-const getSingleUser = async(name)=>{
-    try{
-        const res = await axios.get("https://jsonplaceholder.typicode.com/users/5");
-        console.log(res.data.name);
-
-    }
-    catch(error){
-        console.log(error.message);
-
-    }
-};
 
 /* Task 3: Error Handling Practice
 Scenario: Aapne galti se galat URL likh diya hai.
@@ -147,20 +122,6 @@ catch (error){
 }
 };
 
-/* Challenge 2
-Link: https://jsonplaceholder.typicode.com/comments?postId=1
-
-Result: Mujhe console mein dikhao ki Post ID 1 par total kitne comments hain? */
-
-const comments = async() => {
-try{
-    const res = await axios.get("https://jsonplaceholder.typicode.com/comments?postId=1");
-    console.log("total comments",res.data.length);
-}
-catch (error){
-    console.log(error.message);
-}
-};
 
 /* Challenge 3 (The Error Trap)
 Link: https://jsonplaceholder.typicode.com/invalid-data-path
@@ -204,25 +165,7 @@ const chalange4= async() =>{
     }
 
 };
-/* Challenge 3: Photo ID 100 ka data nikalna hai (ID wala logic). */
-const photo = async(id) =>{
-    try{
-        const res = await axios.get(`https://jsonplaceholder.typicode.com/Posts/${id}`);
-        console.log(res.data);
-    }
-    catch (error){
-        
-        if (error.response) {
-            console.log(error.response.status);
-            console.log(error.response.data);
-        } 
-        else {
-          console.log("something wrong",error.message);  
-        }
-    }
-};
-//call function 
-photo(100);
+
 
 /* Challenge 1: Ek User ke saare Posts
 Maqsad: Mujhe sirf User ID 2 ke posts chahiye.
@@ -232,39 +175,28 @@ URL: https://jsonplaceholder.typicode.com/posts
 Filter: userId hona chahiye 2.
 
 Kaise likhna hai: axios.get(URL, { params: { userId: 2 } }) */
-const posts = async() => {
-    try{
-        const res = await axios.get(`https://jsonplaceholder.typicode.com/posts`,{
-            params:
-            {
+// const posts = async() => {
+//     try{
+//         const res = await axios.get(`https://jsonplaceholder.typicode.com/posts`,{
+//             params:
+//             {
 
-            }
-        })
+//             }
+//         })
+//     }
+//     catch (error){
+
+//     }
+// };
+
+const step1 = async()=>{
+    try{
+        const res = await axios.get("https://jsonplaceholder.typicode.com/todos");
+        console.log(res.data.length);
     }
     catch (error){
-
-    }
-};
-
-const axios = require('axios');
-
-const testParams = async () => {
-    try {
-        const res = await axios.get("https://jsonplaceholder.typicode.com/todos", {
-            // Bas ye dabba hi 'Params' hai, isme hum filter ki chabi (key) rakhte hain
-            params: {
-                completed: true
-            }
-        });
-
-        // Agar params ne kaam kiya, toh length 200 se kam aayegi
-        console.log("Total Filtered Data:", res.data.length); 
-        
-    } catch (error) {
         console.log(error.message);
     }
 };
 
-testParams();
-
-jdsjdoifbhknvkdfnv
+step1();
