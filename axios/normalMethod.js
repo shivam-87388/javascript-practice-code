@@ -299,3 +299,39 @@ const photo = async(id) =>{
 };
 //call function 
 photo(100);
+
+
+/* Scenario A: Shop Owner ka Dashboard
+Maan lo aap Telibagh ki ek electronic shop ke liye software bana rahe ho.
+
+Zaroorat: Shop owner ko ek button dabate hi apne store ke saare mobile phones dekhne hain jo 'Samsung' brand ke hain.
+
+Socho: Kya yahan aap ek-ek mobile ki ID mangoge ya poori list par filter lagaoge? Isme aapka output Array [] hona chahiye ya Object {}? */
+const shop = async(company) =>{
+    try{
+        const res = await axios.get("https://fakestoreapi.com/products",{
+            params:{
+                userId: company,
+
+            }
+        })
+        
+        console.log(res.data);
+    }
+    catch (error){
+        if (error.response){
+            console.log(error.response.status);
+            console.log(error.response.data);
+        }
+        if (error.request) {
+            console.log(error.request);
+            
+        } else {
+            console.log(error.message);
+            
+        }
+
+    }
+};
+// call function
+shop("samsung");
