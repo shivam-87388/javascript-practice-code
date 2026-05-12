@@ -343,11 +343,28 @@ Maan lo aapne Telibagh wali shop ke liye ek dashboard banaya hai.
 Zaroorat: Shop owner ke paas ek lambi list hai. Wo kisi ek specific customer ka poora kacha-chittha (address, phone, email) dekhna chahta hai.
 
 Data: Us customer ki unique ID hai 2. */
-const shop2 = async () => {
+const shop2 = async (id) => {
     try {
-        
+        const res = await axios.get("https://fakestoreapi.com",{
+            params:{
+                userId: id, 
+            }
+        })
     } catch (error) {
-        
+        if(error.response){
+            console.log(error.response.status);
+            console.log(error.response.data);
+        }
+        if (error.request) {
+            console.log(error.resquest);
+            
+            
+        } else {
+            console.log(error.message);
+            
+      }  
     }
        
 };
+
+// call back
