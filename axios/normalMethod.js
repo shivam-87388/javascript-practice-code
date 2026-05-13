@@ -378,14 +378,13 @@ Data: Category hai electronics aur limit hai 3. */
 
 const inventory = async(count)=>{
     try {
-        const res = await axios.get("https://fakestoreapi.com/products/electronic/",{
+        const res = await axios.get("https://fakestoreapi.com/products/category/electronics",{
             params:{
-                electronics:count,
+                electronicsItems:count,
             }
         })
         const items = res.data;
-        items.slice(0,3);
-        console.log(items);
+        console.log(items.slice(0,3));
 
     } catch (error) {
         if (error.response){
@@ -402,3 +401,5 @@ const inventory = async(count)=>{
     }
 
 };
+inventory(3);
+
