@@ -7,7 +7,7 @@ const connect_db = async()=> {
         console.log(connection,"connect db")
     } catch (err) {
         console.error("DB Connection Failed:", err.message);
-        process.exit(1); // Server band kar do agar DB connect nahi hua
+        // Server band kar do agar DB connect nahi hua
     }
 };    
 
