@@ -2,6 +2,8 @@
 const express = require("express");
 const connect_db = require("./config/connection");
 require('dotenv').config();
+const cors = require("cors");
+
 
 
 
@@ -9,9 +11,12 @@ require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 5000;
 
+app.use(cors());
 app.use('/', (req, res) => {
   res.send('Hello World!')
 })
+
+connect_db();
 
 
 app.listen(port, () => {
