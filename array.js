@@ -161,6 +161,7 @@ console.log(fruit); */
    }
  }
  console.log(max); */
+
  let arr = [1,2,4,7,8];
  count = 0;
  
