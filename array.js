@@ -152,3 +152,22 @@ console.log(fruit); */
  //remove the uber company & add the ola company in its place
  companies.splice(2,1,"ola");
  console.log(companies); */
+
+ /* let arr = [5, 2, 9, 1];
+ let max = arr[0];
+ for (let i = 0; i < arr.length; i++) {
+   if (max < arr[i]) {
+     max = arr[i];
+   }
+ }
+ console.log(max); */
+ let arr = [1,2,4,7,8];
+ count = 0;
+ 
+ for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 == 0) {
+        count = count+ arr[i]
+    }
+    
+}
+console.log(count);
