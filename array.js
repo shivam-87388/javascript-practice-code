@@ -162,7 +162,7 @@ console.log(fruit); */
  }
  console.log(max); */
 
- let arr = [1,2,4,7,8];
+/* let arr = [1,2,4,7,8];
  count = 0;
  
  for (let i = 0; i < arr.length; i++) {
@@ -171,4 +171,13 @@ console.log(fruit); */
     }
     
 }
-console.log(count);
+console.log(count); */
+
+const arr =  [3,8,2,11,14,16];
+const newarry = []
+for (let i = 0; i < arr.length; i++) {
+   if (arr[i]%2==0) {
+   newarry.push = arr[i];
+   console.log(newarry[]);
+   }
+}
