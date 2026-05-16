@@ -182,11 +182,8 @@ for (let i = 0; i < arr.length; i++) {
    }
 }
 maxno = newarr[0];
-for (let index = 0; index < newarr.length; index++) {
-    if (max > newarr[i]) {
-        maxno = newarr[i];
-        
-        console.log(maxno)
-    }
+console.log(newarr[i]);
+// for (let index = 0; index < newarr.length; index++) {
     
-}
+//     console.log(newarr[i]);
+// }
