@@ -174,9 +174,12 @@ console.log(fruit); */
 console.log(count); */
 
 const arr =  [3,8,2,11,14,16];
-newarr = []
+const newarr = [];
+const maxno  ;
 for (let i = 0; i < arr.length; i++) {
    if (arr[i]%2==0) {
   newarr.push(arr[i]);
    }
 }
+maxno = newarr[0];
+console.log(maxno);
