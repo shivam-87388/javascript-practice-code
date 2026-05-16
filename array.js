@@ -173,18 +173,21 @@ console.log(fruit); */
 }
 console.log(count); */
 
+
 const arr =  [3,8,2,11,14,16];
-const newarr = [];
+const maxno = [];
+
+
 
 for (let i = 0; i < arr.length; i++) {
    if (arr[i]%2==0) {
-  newarr.push(arr[i]);
-  console.log(newarr[i]);
-   }
+  maxno.push(arr[i]);
 }
-console.log(newarr[i]);
-//maxno = newarr[0];
-// for (let index = 0; index < newarr.length; index++) {
-    
-//     console.log(newarr[i]);
-// }
+}
+big = maxno[0];
+for (let i = 0; i < maxno.length; i++) {
+  if (big < maxno[i]) {
+    big = maxno[i]
+}
+}
+console.log(big);
