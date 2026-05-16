@@ -197,11 +197,14 @@ console.log(big);
 
 const arr = [1,2,3,4,5];
 const no = [];
+ sum = 0;
 for (let i = 0; i < arr.length; i++) {
     if (arr[i] % 2 !=0 ){
      no.push(arr[i]);
 
     }
          
+}for (let i = 0; i < no.length; i++) {
+sum  = sum+no[i];
 }
-console.log(no)
+console.log(sum);   
