@@ -192,3 +192,16 @@ for (let i = 0; i < maxno.length; i++) {
 }
 console.log(big);
 */
+
+/* Sum of Odd Numbers */
+
+const arr = [1,2,3,4,5];
+const no = [];
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 !=0 ){
+     no.push(arr[i]);
+
+    }
+         
+}
+console.lo
