@@ -179,10 +179,11 @@ const newarr = [];
 for (let i = 0; i < arr.length; i++) {
    if (arr[i]%2==0) {
   newarr.push(arr[i]);
+  console.log(newarr[i]);
    }
 }
-maxno = newarr[0];
 console.log(newarr[i]);
+//maxno = newarr[0];
 // for (let index = 0; index < newarr.length; index++) {
     
 //     console.log(newarr[i]);
