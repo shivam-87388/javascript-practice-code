@@ -173,7 +173,7 @@ console.log(fruit); */
 }
 console.log(count); */
 
-
+/* Write a JavaScript program to find the largest even number from a given array.
 const arr =  [3,8,2,11,14,16];
 const maxno = [];
 
@@ -191,3 +191,4 @@ for (let i = 0; i < maxno.length; i++) {
 }
 }
 console.log(big);
+*/
