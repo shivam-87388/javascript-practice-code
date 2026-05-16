@@ -174,10 +174,9 @@ console.log(fruit); */
 console.log(count); */
 
 const arr =  [3,8,2,11,14,16];
-const newarry = []
+newarr = []
 for (let i = 0; i < arr.length; i++) {
    if (arr[i]%2==0) {
-   newarry.push = arr[i];
-   console.log(newarry[]);
+  newarr.push(arr[i]);
    }
 }
