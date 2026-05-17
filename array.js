@@ -230,3 +230,15 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(sum);
 */
+
+/* Make New Array of Odd Numbers */
+const arr = [1,2,3,4,5,6];
+let oddno = [];
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 !==0) {
+       oddno.push(arr[i]);
+        
+    }
+    
+}
+console.log(oddno);
