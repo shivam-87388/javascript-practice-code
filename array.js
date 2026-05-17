@@ -302,3 +302,14 @@ for (let i = 0; i < arr.length; i++) {
     
 }
 console.log(count); */
+
+/* Reverse Only Even Numbers Into New Array */
+const array = [1,2,3,4,6];
+let newarr = [];
+for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 == 0) {
+newarr.push(array[i]);
+
+}  
+}
+console.log(newarr.reverse());
