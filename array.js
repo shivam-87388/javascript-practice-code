@@ -261,4 +261,22 @@ negativeno =  large[0]
   }
      }
      console.log(negativeno) */
-     
+
+     /* Count Numbers Greater Than 10 */
+     const arr = [4,11,25,7,18];
+     let newarr = [];
+    let count = 0;
+
+     for (let i = 0; i < arr.length; i++) {
+        if (10 < arr[i]) {
+          newarr.push(arr[i]);  
+            
+          
+        }
+        
+     }
+     console.log(newarr.length);
+    
+
+   
+   
