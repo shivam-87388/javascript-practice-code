@@ -193,7 +193,7 @@ for (let i = 0; i < maxno.length; i++) {
 console.log(big);
 */
 
-/* Sum of Odd Numbers */
+/* Sum of Odd Numbers 
 
 const arr = [1,2,3,4,5];
 const no = [];
@@ -207,4 +207,16 @@ for (let i = 0; i < arr.length; i++) {
 }for (let i = 0; i < no.length; i++) {
 sum  = sum+no[i];
 }
-console.log(sum);   
+console.log(sum); */ 
+
+/* Count Negative Numbers */
+const arr = [3,-1,7,-9,2,-5];
+let count = 0;
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i]< 0) {
+       count = count + arr[i];
+       
+    }
+    
+}
+console.log(count);
