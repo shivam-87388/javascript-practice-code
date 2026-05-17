@@ -212,10 +212,10 @@ const arr = [3, -1, 7, -9, 2, -5];
 let count = 0;
 for (let i = 0; i < arr.length; i++) {
   if (arr[i] < 0) {
-    count = count + arr[i];
+    count = count + 1;
   }
 }
-console.log(count++); */
+console.log(count); */
 
 /* find the samllest no 
 const arr = [7,2,9,1,5];
