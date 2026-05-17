@@ -25,8 +25,7 @@
 
 // console.log(add);
 
-
-// 
+//
 // if(avg>=50){
 //     console.log(pass);
 // }
@@ -38,8 +37,7 @@
         console.log(arr[i]);
     }*/
 
-
-   /*Find max number*/
+/*Find max number*/
 //    let arr = [12, 45, 7, 89, 33];
 //    max = arr[0];
 //    for(let i =1; i<arr.length;i++){
@@ -74,7 +72,7 @@ console.log(minimun);*/
 // let arr = [2,5,8,11,14];
 // sum = 0;
 // for(i=0;i<arr.length;i++){
- 
+
 // }
 // console.log(arr[i]);
 
@@ -111,39 +109,39 @@ for (let i=0; i<arr.length;i++){
  console.log(arr);
  console.log(count); */
 
- //add an element at end by push method
- /* let fruit = ["banana","apple","watermelon","papaya"];
+//add an element at end by push method
+/* let fruit = ["banana","apple","watermelon","papaya"];
  //fruit.push("grapes"); //add grapes at end
  console.log(fruit); */
 
-  //remove an element at end by pop method
+//remove an element at end by pop method
 /* let fruit = ["banana","apple","watermelon","papaya"];
 fruit.pop("papaya"); //remove grapes from end
 console.log(fruit); */
 
- //add an element at starting by unshift method
- /* let fruit = ["banana","apple","watermelon","papaya"];
+//add an element at starting by unshift method
+/* let fruit = ["banana","apple","watermelon","papaya"];
  fruit.unshift("grapes"); //add grapes at starting
  console.log(fruit); */
 
- //remove an element from starting by shift method
- /* let fruit = ["banana","apple","watermelon","papaya"];
+//remove an element from starting by shift method
+/* let fruit = ["banana","apple","watermelon","papaya"];
  fruit.shift("banana"); //remove banana from starting
  console.log(fruit); */
 
- //remove an element by using index number by using slice  method
+//remove an element by using index number by using slice  method
 /* let fruit = ["banana","apple","watermelon","papaya"];
 fruit = fruit.slice(1,3); //remove element by using slice(staring index no, end index no) remember not include end index element
  console.log(fruit); */
- 
- //add or remove an element by using index number by using splice  method
+
+//add or remove an element by using index number by using splice  method
 /* let fruit = ["banana","apple","watermelon","papaya"];
 fruit.splice(1,2,"grapes","kiwi"); //remove element by using slice(staring index no, end index no, add element)
 console.log(fruit); */
 
 /* create an array to store companies : bloomberg , microsoft, uber, google, ibm, Netflix
  remove the first company from the array add add amazon company at the end */
- /* let companies = ["bloomberg","microsoft","uber","google","ibm","netflix"]
+/* let companies = ["bloomberg","microsoft","uber","google","ibm","netflix"]
 
 // remove the first company from the array
 //  companies.splice(0,1); 
@@ -153,7 +151,7 @@ console.log(fruit); */
  companies.splice(2,1,"ola");
  console.log(companies); */
 
- /* let arr = [5, 2, 9, 1];
+/* let arr = [5, 2, 9, 1];
  let max = arr[0];
  for (let i = 0; i < arr.length; i++) {
    if (max < arr[i]) {
@@ -207,16 +205,14 @@ for (let i = 0; i < arr.length; i++) {
 }for (let i = 0; i < no.length; i++) {
 sum  = sum+no[i];
 }
-console.log(sum); */ 
+console.log(sum); */
 
-/* Count Negative Numbers */
-const arr = [3,-1,7,-9,2,-5];
+/* Count Negative Numbers 
+const arr = [3, -1, 7, -9, 2, -5];
 let count = 0;
 for (let i = 0; i < arr.length; i++) {
-    if (arr[i]< 0) {
-       count = count + arr[i];
-       
-    }
-    
+  if (arr[i] < 0) {
+    count = count + arr[i];
+  }
 }
-console.log(count);
+console.log(count++); */
