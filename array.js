@@ -246,8 +246,6 @@ console.log(oddno); */
 /* Find Largest Negative Number */
 const arr = [-10,-2,-7,-1];
 let large = [];
-let negativeno ;
-
 
 for (let i = 0; i < arr.length; i++) {
     if (0 > arr[i]) {
@@ -255,3 +253,11 @@ for (let i = 0; i < arr.length; i++) {
     }
     
 }
+negativeno =  large[0]
+ for (let i = 0; i< large.length; i++) {
+  if (negativeno < large[i]) {
+    negativeno = large[i];
+    
+  }
+     }
+     console.log(negativeno)
