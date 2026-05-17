@@ -231,7 +231,7 @@ for (let i = 0; i < arr.length; i++) {
 console.log(sum);
 */
 
-/* Make New Array of Odd Numbers */
+/* Make New Array of Odd Numbers 
 const arr = [1,2,3,4,5,6];
 let oddno = [];
 for (let i = 0; i < arr.length; i++) {
@@ -241,4 +241,17 @@ for (let i = 0; i < arr.length; i++) {
     }
     
 }
-console.log(oddno);
+console.log(oddno); */ 
+
+/* Find Largest Negative Number */
+const arr = [-10,-2,-7,-1];
+let large = [];
+let negativeno ;
+
+
+for (let i = 0; i < arr.length; i++) {
+    if (0 > arr[i]) {
+        large.push(arr[i]); 
+    }
+    
+}
