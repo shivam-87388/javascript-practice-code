@@ -289,7 +289,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(square); */
 
-/*Count Numbers Divisible by 3 and 5 */
+/*Count Numbers Divisible by 3 and 5 
 const arr = [15,9,30,10,45];
 let count = 0;
 
@@ -301,4 +301,4 @@ for (let i = 0; i < arr.length; i++) {
    }
     
 }
-console.log(count);
+console.log(count); */
