@@ -280,11 +280,25 @@ negativeno =  large[0]
      /* print the no form 1 to 20;
  for (let i = 0; i <20; i++) {  
  } */
-/* Create Array of Squares */
+/* Create Array of Squares 
 const arr = [1,2,3,4];
 let square = [];
 
 for (let i = 0; i < arr.length; i++) {
    square.push(arr[i]*arr[i]);
 }
-console.log(square);
+console.log(square); */
+
+/*Count Numbers Divisible by 3 and 5 */
+const arr = [15,9,30,10,45];
+let count = 0;
+
+for (let i = 0; i < arr.length; i++) {
+   if (arr[i] % 3 == 0 && arr[i] % 5 == 0) {
+       count++;
+
+    
+   }
+    
+}
+console.log(count);
