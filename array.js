@@ -262,7 +262,7 @@ negativeno =  large[0]
      }
      console.log(negativeno) */
 
-     /* Count Numbers Greater Than 10 */
+     /* Count Numbers Greater Than 10 
      const arr = [4,11,25,7,18];
      let newarr = [];
     let count = 0;
@@ -275,7 +275,7 @@ negativeno =  large[0]
         }
         
      }
-     console.log(newarr.length);
+     console.log(newarr.length); */
     
 
    
