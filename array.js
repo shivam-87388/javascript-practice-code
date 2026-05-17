@@ -276,7 +276,7 @@ negativeno =  large[0]
         
      }
      console.log(newarr.length); */
-    
 
-   
-   
+     /* print the no form 1 to 20;
+ for (let i = 0; i <20; i++) {  
+ } */
