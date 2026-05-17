@@ -217,7 +217,7 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(count++); */
 
-/* find the samllest no */
+/* find the samllest no 
 const arr = [7,2,9,1,5];
 let sum = arr[0];
 let max = 0;
@@ -229,3 +229,4 @@ for (let i = 0; i < arr.length; i++) {
     }
 }
 console.log(sum);
+*/
