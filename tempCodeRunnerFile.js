@@ -1,1 +1,1 @@
-console.log(newarr[i]);
+console.log(max);
