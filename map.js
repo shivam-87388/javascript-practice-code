@@ -12,4 +12,4 @@ let a = arr.map((value)=>{
 })
 console.log(a);
 console.log(a);
-console.log(a)
+console.log(a);
