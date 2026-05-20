@@ -11,4 +11,4 @@ let a = arr.map((value)=>{
     
 })
 console.log(a)
-map
+map.length
