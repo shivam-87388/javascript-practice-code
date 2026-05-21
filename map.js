@@ -21,3 +21,12 @@ const mul = () => {
 }
 console.log(newarr);
 };
+const arr = [2, 3, 4];
+const newarr = [];
+const mul = () => {
+  for (let i = 0; i < arr.length; i++) {
+    newarr.push(arr[i] * 2);
+   
+}
+console.log(newarr);
+};
