@@ -30,3 +30,5 @@ const mul = () => {
 }
 console.log(newarr);
 };
+
+mul();
