@@ -35,8 +35,7 @@ const user = [ { name: "Shiva", age: 21 },
    { name: "Aman", age: 20 }];
    
    const userName = user.map((users) => {
-    console.log(user.name);
+       return users.name;
+});
+console.log(userName);
 
-   });
-
-   userName();
