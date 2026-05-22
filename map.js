@@ -30,7 +30,11 @@ const user = [ { name: "Shiva", age: 21 },
 }; */
 
 
-   const userName = user.map((users)=>{
+ const user = [ { name: "Shiva", age: 21 },
+   { name: "Rahul", age: 22 },
+   { name: "Aman", age: 20 }];
+   
+   const userName = user.map((users) => {
     console.log(user.name);
 
    });
