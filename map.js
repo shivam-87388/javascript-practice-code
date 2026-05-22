@@ -28,4 +28,6 @@ const user = [ { name: "Shiva", age: 21 },
 
    userName();
 
-   const userName
+   const userName = user.map((user.name)=>{
+
+   })
