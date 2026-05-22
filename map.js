@@ -12,7 +12,7 @@ let a = arr.map((value)=>{
 })
 console.log(a); */
 
-/* Sirf names nikalke ek new array banana hai. */
+/* Sirf names nikalke ek new array banana hai. 
 const user = [ { name: "Shiva", age: 21 },
    { name: "Rahul", age: 22 },
    { name: "Aman", age: 20 }];
@@ -24,10 +24,15 @@ const user = [ { name: "Shiva", age: 21 },
         name.push(`index ${user[i].name}`)
     }
     console.log(name);
-};
+
+    call back function
+    userName();
+}; */
+
+
+   const userName = user.map((users)=>{
+    console.log(user.name);
+
+   });
 
    userName();
-
-   const userName = user.map((user.name)=>{
-
-   })
