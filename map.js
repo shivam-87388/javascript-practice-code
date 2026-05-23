@@ -39,6 +39,13 @@ const user = [ { name: "Shiva", age: 21 },
 });
 console.log(userName);
 
+const name = [
+    {name : "ram", ram:"20"},
+    {name : "ravi", ram:"20"},
+    
+
+]
+
 
 
 
