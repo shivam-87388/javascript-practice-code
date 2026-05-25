@@ -49,11 +49,12 @@ return num*num;
 console.log(square); */
 const arr = [1,2,3,4];
 
-let square = arr.map((num) => 
+const square = arr.map((num) => 
 num*num
 );
 
-square();
+const finalnas = arr.map(square);
+console.log(finalnas);
 
 
 
