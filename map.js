@@ -49,9 +49,11 @@ return num*num;
 console.log(square); */
 const arr = [1,2,3,4];
 
-const square = ()=>{
-    
-} 
+const square = (num)=>{
+    return num*num;
+};
+const finalans = arr.map(square);
+console.log(finalans)
 
 
 
