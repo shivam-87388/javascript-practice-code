@@ -29,7 +29,7 @@ const user = [ { name: "Shiva", age: 21 },
     userName();
 }; */
 
-
+/*
  const user = [ { name: "Shiva", age: 21 },
    { name: "Rahul", age: 22 },
    { name: "Aman", age: 20 }];
@@ -37,14 +37,16 @@ const user = [ { name: "Shiva", age: 21 },
    const userName = user.map((users) => {
        return users.name;
 });
-console.log(userName);
+console.log(userName); */
 
-const name = [
-    {name : "ram", ram:"20"},
-    {name : "ravi", ram:"20"},
-    
+//square of number
 
-]
+const arr = [1,2,3,4];
+
+let square = arr.map((num) => {
+return num*num;
+});
+console.log(square);
 
 
 
