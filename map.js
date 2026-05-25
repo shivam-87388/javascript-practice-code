@@ -41,13 +41,19 @@ console.log(userName); */
 
 //square of number
 
-const arr = [1,2,3,4];
+/* const arr = [1,2,3,4];
 
 let square = arr.map((num) => {
 return num*num;
 });
-console.log(square);
+console.log(square); */
+const arr = [1,2,3,4];
 
+let square = arr.map((num) => 
+num*num
+);
+
+square();
 
 
 
