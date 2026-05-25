@@ -47,13 +47,29 @@ let square = arr.map((num) => {
 return num*num;
 });
 console.log(square); */
+
+/* arrow function
 const arr = [1,2,3,4];
 
 const square = (num)=>{
     return num*num;
 };
+
+call back
 const finalans = arr.map(square);
 console.log(finalans)
+*/
 
+
+/* Add 10 to every number by arrow function*/
+const arr = [5,10,15];
+
+const add = (num)=>{
+return num + 10;
+};
+
+// call back
+const final = arr.map(add);
+console.log(final);
 
 
