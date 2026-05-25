@@ -61,7 +61,7 @@ console.log(finalans)
 */
 
 
-/* Add 10 to every number by arrow function*/
+/* Add 10 to every number by arrow function
 const arr = [5,10,15];
 
 const add = (num)=>{
@@ -71,5 +71,14 @@ return num + 10;
 // call back
 const final = arr.map(add);
 console.log(final);
+*/
 
+/* by normal method
+const arr = [5,10,15];
+const add = arr.map((num) => {
+    return num + 10;
+
+});
+console.log(add);
+*/
 
