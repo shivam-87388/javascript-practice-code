@@ -82,3 +82,9 @@ const add = arr.map((num) => {
 console.log(add);
 */
 
+/* Convert into uppercase */
+const names = ["shivam", "rahul", "aman"];
+
+const name = (naam) =>{
+    return naam.toUpperCase();
+};
