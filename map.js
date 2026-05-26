@@ -119,8 +119,9 @@ console.log(final.length); */
 
 // normal function
 const fruits = ["apple", "banana", "kiwi"];
-const fruit = fruits.map((fr){
-    retuu
+const fruit = fruits.map((fr) => {
+    return fr.length;
 
 })
+console.log(fruit);
 
