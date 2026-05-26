@@ -85,7 +85,7 @@ console.log(add);
 /* Convert into uppercase */
 const names = ["shivam", "rahul", "aman"];
 
-// arrow function
+/* arrow function
 const name = (naam) =>{
     return naam.toUpperCase();
 };
@@ -93,6 +93,10 @@ const name = (naam) =>{
 
 // call back function
 const final =  names.map(name);
-console.log(final);
+console.log(final); */
 
 // normal function
+const name = names.map((naam) => {
+    return naam.toUpperCase;
+})
+console.log(name);
