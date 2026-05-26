@@ -88,3 +88,8 @@ const names = ["shivam", "rahul", "aman"];
 const name = (naam) =>{
     return naam.toUpperCase();
 };
+
+
+// call back function
+const final =  names.map(name);
+console.log(final);
