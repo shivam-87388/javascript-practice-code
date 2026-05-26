@@ -100,3 +100,20 @@ const name = names.map((naam) => {
     return naam.toUpperCase();
 })
 console.log(name); */
+
+/* Get string lengths 
+const fruits = ["apple", "banana", "kiwi"];
+
+// arrow function
+const fruit = (fr) => {
+    return fr.length;
+
+};
+
+const final = fruits.map(fruit);
+
+// string length
+console.log(fruit);
+// array length
+console.log(final.length); */
+
