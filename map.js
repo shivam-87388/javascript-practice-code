@@ -93,10 +93,10 @@ const name = (naam) =>{
 
 // call back function
 const final =  names.map(name);
-console.log(final); */
+console.log(final); 
 
 // normal function
 const name = names.map((naam) => {
     return naam.toUpperCase();
 })
-console.log(name);
+console.log(name); */
