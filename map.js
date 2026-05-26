@@ -117,3 +117,10 @@ console.log(fruit);
 // array length
 console.log(final.length); */
 
+// normal function
+const fruits = ["apple", "banana", "kiwi"];
+const fruit = fruits.map((fr){
+    retuu
+
+})
+
