@@ -83,7 +83,7 @@ console.log(add);
 */
 
 /* Convert into uppercase */
-const names = ["shivam", "rahul", "aman"];
+//const names = ["shivam", "rahul", "aman"];
 
 /* arrow function
 const name = (naam) =>{
@@ -115,7 +115,7 @@ const final = fruits.map(fruit);
 // string length
 console.log(fruit);
 // array length
-console.log(final.length); */
+console.log(final.length); 
 
 // normal function
 const fruits = ["apple", "banana", "kiwi"];
@@ -123,5 +123,36 @@ const fruit = fruits.map((fr) => {
     return fr.length;
 
 })
-console.log(fruit);
+console.log(fruit); */
 
+/* Extract names from objects */
+const users = [
+  {name: "Shivam", age: 21},
+  {name: "Rahul", age: 22},
+  {name: "Aman", age: 20}
+];
+// normal method
+/* const userName = users.map((name) => {
+    return name.name;
+
+});
+console.log(userName); */
+
+// arrow function
+/* const user = (name) => {
+return name.name;
+};
+// call back function
+const final = users.map(user);
+console.log(final); */
+
+/* Multiply by 5 */
+const arr = [1,2,3];
+//normal method
+/* const multiple = arr.map((mult) => {
+    return mult*5;
+});
+console.log(multiple); */
+
+// arrow method
+const multiple
