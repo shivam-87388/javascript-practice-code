@@ -97,6 +97,6 @@ console.log(final); */
 
 // normal function
 const name = names.map((naam) => {
-    return naam.toUpperCase;
+    return naam.toUpperCase();
 })
 console.log(name);
