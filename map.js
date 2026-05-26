@@ -155,4 +155,13 @@ const arr = [1,2,3];
 console.log(multiple); */
 
 // arrow method
-const multiple
+/* const multiple =(num)=> {
+    return num*5;
+};
+
+// call back function
+const final = arr.map(multiple);
+console.log(final); */
+
+// Add "Mr." before every name
+const names = ["Shivam", "Rahul"];
