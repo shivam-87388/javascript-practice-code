@@ -225,4 +225,22 @@ return number+number;
 const cubeAns = arr.map(double);
 console.log(cubeAns); */ 
 
+// Add 18% GST to every price
+const prices = [100, 200, 300];
 
+// normal method
+const gst = prices.map((rate)=>{
+gstrate = rate*18/100;
+return rate + gstrate;
+})
+console.log(gst);
+
+/* // arrow function
+const gst = (rate)=>{
+    gstrate = rate*18/100;
+ return rate + gstrate;
+};
+
+// call back
+const finalrate = prices.map(gst);
+console.log(finalrate); */
