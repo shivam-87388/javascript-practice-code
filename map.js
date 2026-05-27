@@ -209,5 +209,6 @@ console.log(finalans); */
 // Double the numbers
 const arr = [1,2,3,4];
 const double =arr.map((num)=>{
-    return 
-})
+    return num+num;
+});
+console.log(double);
