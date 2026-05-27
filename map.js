@@ -125,12 +125,12 @@ const fruit = fruits.map((fr) => {
 })
 console.log(fruit); */
 
-/* Extract names from objects */
+/* Extract names from objects
 const users = [
   {name: "Shivam", age: 21},
   {name: "Rahul", age: 22},
   {name: "Aman", age: 20}
-];
+];  */
 // normal method
 /* const userName = users.map((name) => {
     return name.name;
@@ -175,5 +175,10 @@ console.log(finalName); */
 // professional method
 const names = ["Shivam", "Rahul"];
 const salutation = "Mr.";
-const finalName = ()
+const finalName = (name)=>{
+    return "Mr. "+name;
+};
+// call back function
+const final = names.map(finalName);
+console.log(final);
 
