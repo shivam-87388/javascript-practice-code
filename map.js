@@ -172,7 +172,7 @@ return "Mr. "+nam;
 });
 console.log(finalName); */
 
-// professional method
+/* // professional method
 const names = ["Shivam", "Rahul"];
 const salutation = "Mr.";
 const finalName = (name)=>{
@@ -180,5 +180,8 @@ const finalName = (name)=>{
 };
 // call back function
 const final = names.map(finalName);
-console.log(final);
+console.log(final); */
+
+
+
 
