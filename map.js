@@ -190,9 +190,9 @@ const arr = [1,2,3,4];
 
 //normal method
 const cube = arr.map((num) => {
-    return num**num;
+    return num*num*num;
 
 });
-clg
+console.log(cube);
 
 
