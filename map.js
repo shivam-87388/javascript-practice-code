@@ -244,3 +244,21 @@ const gst = (rate)=>{
 // call back
 const finalrate = prices.map(gst);
 console.log(finalrate); */
+
+// Add "Mr." before every name
+// const names = ["Shivam", "Rahul"];
+
+/* // normal method
+const finalName = names.map((username) => {
+return `Mr. ${username}`;
+});
+console.log(finalName); */
+
+/* // arrow function
+const name = (username) => {
+    return `Mr. ${username}`;
+
+};
+
+const finalName = names.map(name);
+console.log(finalName); */
