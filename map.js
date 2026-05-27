@@ -165,3 +165,9 @@ console.log(final); */
 
 // Add "Mr." before every name
 const names = ["Shivam", "Rahul"];
+// const salu =  "Mr.";
+// normal method
+const finalName = names.map((nam) => {
+return "Mr."+nam;
+});
+console.log(finalName);
