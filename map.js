@@ -182,6 +182,16 @@ const finalName = (name)=>{
 const final = names.map(finalName);
 console.log(final); */
 
+/* Create a separate arrow function named cube.
+Expected Output:
+[1,8,27,64]
+*/
+const arr = [1,2,3,4];
 
+//normal method
+const cube = arr.map((num) => {
+    return num*num*num
+
+})
 
 
