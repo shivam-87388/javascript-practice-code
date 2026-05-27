@@ -188,11 +188,13 @@ Expected Output:
 */
 const arr = [1,2,3,4];
 
-//normal method
+/* //normal method
 const cube = arr.map((num) => {
     return num**3;
 
 });
-console.log(cube);
+console.log(cube); */
+
+// arrow function
 
 
