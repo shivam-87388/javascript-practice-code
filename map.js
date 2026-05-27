@@ -207,7 +207,7 @@ const finalans = arr.map(cube);
 console.log(finalans); */
 
 
-// Double the numbers
+/* // Double the numbers
 const arr = [1,2,3,4];
 
 /* //normal method
@@ -216,12 +216,13 @@ const double =arr.map((num)=>{
 });
 console.log(double); */
 
-// arrow function
+/* // arrow function
 const double = (number)=>{
 return number+number;
 };
 
+// call back
 const cubeAns = arr.map(double);
-console.log(cubeAns);
+console.log(cubeAns); */ 
 
 
