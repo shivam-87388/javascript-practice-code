@@ -206,4 +206,8 @@ const cube = (num)=>{
 const finalans = arr.map(cube);
 console.log(finalans); */
 
-
+// Double the numbers
+const arr = [1,2,3,4];
+const double =arr.map((num)=>{
+    return 
+})
