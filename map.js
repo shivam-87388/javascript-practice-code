@@ -216,4 +216,12 @@ const double =arr.map((num)=>{
 });
 console.log(double); */
 
+// arrow function
+const double = (number)=>{
+return number+number;
+};
+
+const cubeAns = arr.map(double);
+console.log(cubeAns);
+
 
