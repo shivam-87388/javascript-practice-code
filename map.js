@@ -146,10 +146,10 @@ return name.name;
 const final = users.map(user);
 console.log(final); */
 
-/* Multiply by 5 */
+/* Multiply by 5 
 const arr = [1,2,3];
 //normal method
-/* const multiple = arr.map((mult) => {
+ const multiple = arr.map((mult) => {
     return mult*5;
 });
 console.log(multiple); */
@@ -190,7 +190,7 @@ const arr = [1,2,3,4];
 
 //normal method
 const cube = arr.map((num) => {
-    return num*num*num;
+    return num**3;
 
 });
 console.log(cube);
