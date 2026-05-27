@@ -186,7 +186,7 @@ console.log(final); */
 Expected Output:
 [1,8,27,64]
 */
-const arr = [1,2,3,4];
+//const arr = [1,2,3,4];
 
 /* //normal method
 const cube = arr.map((num) => {
@@ -195,6 +195,15 @@ const cube = arr.map((num) => {
 });
 console.log(cube); */
 
-// arrow function
+
+/* // arrow function
+const cube = (num)=>{
+    return num**3;
+};
+
+// call back
+
+const finalans = arr.map(cube);
+console.log(finalans); */
 
 
