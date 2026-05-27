@@ -164,10 +164,16 @@ const final = arr.map(multiple);
 console.log(final); */
 
 // Add "Mr." before every name
-const names = ["Shivam", "Rahul"];
+/* const names = ["Shivam", "Rahul"];
 // const salu =  "Mr.";
 // normal method
 const finalName = names.map((nam) => {
 return "Mr. "+nam;
 });
-console.log(finalName);
+console.log(finalName); */
+
+// professional method
+const names = ["Shivam", "Rahul"];
+const salutation = "Mr.";
+const finalName = ()
+
