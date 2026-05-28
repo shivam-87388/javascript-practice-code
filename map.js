@@ -289,7 +289,16 @@ console.log(finalans); */
 const arr = [1,2,3,4,5,6];
 
 //normal method
-const even = arr.filter((value)=>{
+/* const even = arr.filter((value)=>{
     return value % 2 ==0;
 });
-console.log(even);
+console.log(even); */
+
+//arrow method
+const even = (value)=>{
+    return value % 2 == 0;   
+};
+
+// call back
+const evenNo = arr.filter(even);
+console.log(evenNo);
