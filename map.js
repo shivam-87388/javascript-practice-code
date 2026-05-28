@@ -269,7 +269,7 @@ console.log(finalName); */
 //filter method is used to filtering the data from the given array and return the filtered array
 
 //Get numbers greater than 10
-const arr = [5,12,8,20];
+//const arr = [5,12,8,20];
 
 // normal method
 /* const greaterno = arr.filter((value)=>{
@@ -278,9 +278,18 @@ const arr = [5,12,8,20];
 console.log(greaterno); */
 
 // arrow function
-const greater = (value)=>{
+/* const greater = (value)=>{
     return value > 10;
 };
-
+// call back
 const finalans = arr.filter(greater);
-console.log(finalans);
+console.log(finalans); */
+
+// get all the even no 
+const arr = [1,2,3,4,5,6];
+
+//normal method
+const even = arr.filter((value)=>{
+    return value % 2 ==0;
+});
+console.log(even);
