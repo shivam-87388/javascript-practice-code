@@ -345,10 +345,17 @@ const users = [
  {name:"Rahul", age:21},
  {name:"Shivam", age:25}
 ];
-
-const adult = users.filter((value)=>{
+//normal method
+/* const adult = users.filter((value)=>{
     return value.age >= 18;
 });
-console.log(adult);
+console.log(adult); */
+//arrow method
+const age = (value)=>{
+    return value.length >= 18;
+};
+//call back
+const finalage = users.filter(age);
+console.log(finalage);
 
 
