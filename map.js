@@ -332,6 +332,8 @@ return value.length >= 4;
 console.log(finalName); */
 
 //arrow function
-const name = ()
+const name = (value)=>{
+    return value.length >= 4;
+};
 
 
