@@ -332,8 +332,6 @@ return value.length >= 4;
 console.log(finalName); */
 
 //arrow function
-const
-
-const names = ["ram", "shyam"];
+const name = ()
 
 
