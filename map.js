@@ -276,3 +276,11 @@ const arr = [5,12,8,20];
     return value > 10;
 });
 console.log(greaterno); */
+
+// arrow function
+const greater = (value)=>{
+    return value > 10;
+};
+
+const finalans = arr.filter(greater);
+console.log(finalans);
