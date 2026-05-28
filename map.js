@@ -331,4 +331,6 @@ return value.length >= 4;
 });
 console.log(finalName); */
 
+const names = ["ram", "shyam"];
+
 
