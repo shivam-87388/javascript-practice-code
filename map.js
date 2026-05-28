@@ -322,7 +322,7 @@ const oddNo = arr.filter(odd);
 console.log(oddNo); */
 
 //Get names whose length is greater than 4.
-const names = ["Ram", "Shivam", "Aman", "Rahul"];
+//const names = ["Ram", "Shivam", "Aman", "Rahul"];
 
 // normall methodd
 /* const finalName = names.filter((value)=>{
@@ -332,11 +332,23 @@ return value.length >= 4;
 console.log(finalName); */
 
 //arrow function
-const name = (value)=>{
+/* const name = (value)=>{
     return value.length >= 4;
 };
+//call back
 const finalName = names.filter(name);
-console.log(finalName);
+console.log(finalName); */
 
+// Filter adults.
+const users = [
+ {name:"Aman", age:17},
+ {name:"Rahul", age:21},
+ {name:"Shivam", age:25}
+];
+
+const adult = users.filter((value)=>{
+    return value.age >= 18;
+});
+console.log(adult);
 
 
