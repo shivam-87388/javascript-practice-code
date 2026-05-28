@@ -312,10 +312,14 @@ const arr = [1,2,3,4,5];
 });
 console.log(odd) */
 
-const odd = (value)=>{
+//arrow function
+/* const odd = (value)=>{
     return value % 2 !=0;
 };
 
 //call back
 const oddNo = arr.filter(odd);
-console.log(oddNo);
+console.log(oddNo); */
+
+//Get names whose length is greater than 4.
+const names = ["Ram", "Shivam", "Aman", "Rahul"];
