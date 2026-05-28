@@ -313,4 +313,3 @@ newarr.push(array[i]);
 }  
 }
 console.log(newarr.reverse());
-const name = ["ram","shyam","narayan"]
