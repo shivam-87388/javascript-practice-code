@@ -323,3 +323,8 @@ console.log(oddNo); */
 
 //Get names whose length is greater than 4.
 const names = ["Ram", "Shivam", "Aman", "Rahul"];
+const finalName = names.filter((value)=>{
+return value.length >= 4;
+
+});
+console.log(finalName);
