@@ -304,7 +304,7 @@ const evenNo = arr.filter(even);
 console.log(evenNo); */
 
 //Get all odd numbers.
-const arr = [1,2,3,4,5];
+//const arr = [1,2,3,4,5];
 
 //normal method
 /* const odd = arr.filter((value)=>{
@@ -335,7 +335,8 @@ console.log(finalName); */
 const name = (value)=>{
     return value.length >= 4;
 };
-const fnalName = arr.filter(name);
+const finalName = names.filter(name);
+console.log(finalName);
 
 
 
