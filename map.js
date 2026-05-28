@@ -335,5 +335,7 @@ console.log(finalName); */
 const name = (value)=>{
     return value.length >= 4;
 };
+const fnalName = arr.filter(name);
+
 
 
