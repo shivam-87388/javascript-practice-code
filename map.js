@@ -351,11 +351,11 @@ const users = [
 });
 console.log(adult); */
 //arrow method
-const age = (value)=>{
-    return value.length >= 18;
+/* const age = (value)=>{
+    return value.age >= 18;
 };
 //call back
 const finalage = users.filter(age);
-console.log(finalage);
+console.log(finalage); */
 
 
