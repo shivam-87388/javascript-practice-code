@@ -262,3 +262,17 @@ const name = (username) => {
 
 const finalName = names.map(name);
 console.log(finalName); */
+
+
+//********************************* filter method ***********************************************
+
+//filter method is used to filtering the data from the given array and return the filtered array
+
+//Get numbers greater than 10
+const arr = [5,12,8,20];
+
+// normal method
+/* const greaterno = arr.filter((value)=>{
+    return value > 10;
+});
+console.log(greaterno); */
