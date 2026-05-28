@@ -305,7 +305,17 @@ console.log(evenNo); */
 
 //Get all odd numbers.
 const arr = [1,2,3,4,5];
-const odd = arr.filter((value)=>{
+
+//normal method
+/* const odd = arr.filter((value)=>{
     return value % 2 !=0;
 });
-console.log(odd)
+console.log(odd) */
+
+const odd = (value)=>{
+    return value % 2 !=0;
+};
+
+//call back
+const oddNo = arr.filter(odd);
+console.log(oddNo);
