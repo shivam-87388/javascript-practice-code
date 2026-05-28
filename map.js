@@ -286,7 +286,7 @@ const finalans = arr.filter(greater);
 console.log(finalans); */
 
 // get all the even no 
-const arr = [1,2,3,4,5,6];
+//const arr = [1,2,3,4,5,6];
 
 //normal method
 /* const even = arr.filter((value)=>{
@@ -295,10 +295,17 @@ const arr = [1,2,3,4,5,6];
 console.log(even); */
 
 //arrow method
-const even = (value)=>{
+/* const even = (value)=>{
     return value % 2 == 0;   
 };
 
 // call back
 const evenNo = arr.filter(even);
-console.log(evenNo);
+console.log(evenNo); */
+
+//Get all odd numbers.
+const arr = [1,2,3,4,5];
+const odd = arr.filter((value)=>{
+    return value % 2 !=0;
+});
+console.log(odd)
