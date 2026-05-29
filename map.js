@@ -426,10 +426,18 @@ console.log(maxNo); */
 // Find total sum.
 const arr = [1,2,3,4];
 
-/* normal method */
+/* normal method 
 const sum = arr.reduce((acc,curr)=>{
 return acc+ curr;
-},1);
-console.log(sum);
+},0);
+console.log(sum); */
+
+/* arrow mehtod */
+const sum = (acc,curr) => {
+    return acc+curr;
+};
+//call back
+const finalSum = arr.reduce(sum,0);
+console.log(finalSum);
 
 
