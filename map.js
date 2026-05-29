@@ -408,19 +408,28 @@ const final = arr.reduce(product, arr[0]);
 console.log(final); */
 
 // Find Maximum Number
-const arr = [10,5,40,25];
+//const arr = [10,5,40,25];
 /* normal method
 const max =arr.reduce((acc,curr)=>{
     return acc + curr;
 },10);
 console.log(max); */
 
-/* arrow function */
+/* arrow function 
 const max =(acc,curr)=>{
     return acc+ curr;
 };
 //call back
 const maxNo = arr.reduce(max, arr[0]);
-console.log(maxNo);
+console.log(maxNo); */
+
+// Find total sum.
+const arr = [1,2,3,4];
+
+/* normal method */
+const sum = arr.reduce((acc,curr)=>{
+return acc+ curr;
+},1);
+console.log(sum);
 
 
