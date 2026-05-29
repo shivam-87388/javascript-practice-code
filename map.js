@@ -399,10 +399,10 @@ const arr = [1,2,3,4];
 },1);
 console.log(product); */
 //arrow method
-const sum =((acc,curr)=>{
+const product = (acc,curr)=>{
     return acc*curr;
-},[0]);
+};
 // call back
-const final = arr.reduce(sum);
+const final = arr.reduce(product, arr[0]);
 console.log(final);
 
