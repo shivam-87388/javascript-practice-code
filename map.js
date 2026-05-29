@@ -358,4 +358,19 @@ console.log(adult); */
 const finalage = users.filter(age);
 console.log(finalage); */
 
+// Get all prices above 100.
+const prices = [50,120,80,300,40];
+//normal method
+const finalprice = prices.filter((value)=>{
+    return value > 100;
+});
+console.log(finalprice);
+
+// arrow function
+const price = (value)=>{
+    return value > 100;
+};
+
+const final = prices.filter
+
 
