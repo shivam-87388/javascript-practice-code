@@ -391,18 +391,28 @@ initialValue - starting value
 */
 
 // Product Multiply
-const arr = [1,2,3,4];
+//const arr = [1,2,3,4];
 //normal method
 /* const product = arr.reduce((acc, curr)=>{
     return acc*curr;
 
 },1);
 console.log(product); */
-//arrow method
+
+/* //arrow method
 const product = (acc,curr)=>{
     return acc*curr;
 };
 // call back
 const final = arr.reduce(product, arr[0]);
-console.log(final);
+console.log(final); */
+
+// Find Maximum Number
+const arr = [10,5,40,25];
+
+const max =arr.reduce((acc,curr)=>{
+    return acc + curr;
+},10);
+console.log(max)
+
 
