@@ -409,10 +409,18 @@ console.log(final); */
 
 // Find Maximum Number
 const arr = [10,5,40,25];
-
+/* normal method
 const max =arr.reduce((acc,curr)=>{
     return acc + curr;
 },10);
-console.log(max)
+console.log(max); */
+
+/* arrow function */
+const max =(acc,curr)=>{
+    return acc+ curr;
+};
+//call back
+const maxNo = arr.reduce(max, arr[0]);
+console.log(maxNo);
 
 
