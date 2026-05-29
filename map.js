@@ -375,3 +375,27 @@ const final = prices.filter(price);
 console.log(final); */
 
 
+/********************************************* reduce method ************************************************/
+/* 
+deceleration
+
+array.reduce((accumulator, currentValue) => {
+
+}, initialValue)
+
+
+accumulator - result store karta hai
+currentValue - current array element
+initialValue - starting value
+
+*/
+
+// Product Multiply
+const arr = [1,2,3,4];
+
+const product = arr.reduce((acc, curr)=>{
+    return acc*curr;
+
+},1);
+console.log(product);
+
