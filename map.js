@@ -445,12 +445,21 @@ const arr = [10,50,20,5];
 
 /* normal method 
 const small = arr.reduce((acc,curr)=>{
-if (acc < curr) {
-return acc
+    if (acc < curr) {
+        return acc
+        
+        } else {
+            return  curr
+    }
+    },10);
+    console.log(small); */
     
-} else {
- return  curr
-}
-},10);
-console.log(small); */
+    /* arrow function  */
+const sum = (acc,curr)=>{
+if (acc >= curr) {
+    return acc;
+};
+};
 
+const final = arr.reduce(sum,arr[0]);
+console.log(final)
