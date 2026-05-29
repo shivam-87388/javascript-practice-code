@@ -361,16 +361,17 @@ console.log(finalage); */
 // Get all prices above 100.
 const prices = [50,120,80,300,40];
 //normal method
-const finalprice = prices.filter((value)=>{
+/* const finalprice = prices.filter((value)=>{
     return value > 100;
 });
-console.log(finalprice);
+console.log(finalprice); */
 
 // arrow function
-const price = (value)=>{
+/* const price = (value)=>{
     return value > 100;
 };
-
-const final = prices.filter
+// call back
+const final = prices.filter(price);
+console.log(final); */
 
 
