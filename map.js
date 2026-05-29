@@ -424,7 +424,7 @@ const maxNo = arr.reduce(max, arr[0]);
 console.log(maxNo); */
 
 // Find total sum.
-const arr = [1,2,3,4];
+//const arr = [1,2,3,4];
 
 /* normal method 
 const sum = arr.reduce((acc,curr)=>{
@@ -432,12 +432,25 @@ return acc+ curr;
 },0);
 console.log(sum); */
 
-/* arrow mehtod */
+/* arrow mehtod 
 const sum = (acc,curr) => {
     return acc+curr;
 };
 //call back
 const finalSum = arr.reduce(sum,0);
-console.log(finalSum);
+console.log(finalSum); */
 
+//Find smallest number.
+const arr = [10,50,20,5];
+
+/* normal method 
+const small = arr.reduce((acc,curr)=>{
+if (acc < curr) {
+return acc
+    
+} else {
+ return  curr
+}
+},10);
+console.log(small); */
 
