@@ -340,11 +340,11 @@ const finalName = names.filter(name);
 console.log(finalName); */
 
 // Filter adults.
-const users = [
+/* const users = [
  {name:"Aman", age:17},
  {name:"Rahul", age:21},
  {name:"Shivam", age:25}
-];
+]; */
 //normal method
 /* const adult = users.filter((value)=>{
     return value.age >= 18;
@@ -359,7 +359,7 @@ const finalage = users.filter(age);
 console.log(finalage); */
 
 // Get all prices above 100.
-const prices = [50,120,80,300,40];
+//const prices = [50,120,80,300,40];
 //normal method
 /* const finalprice = prices.filter((value)=>{
     return value > 100;
