@@ -392,10 +392,17 @@ initialValue - starting value
 
 // Product Multiply
 const arr = [1,2,3,4];
-
-const product = arr.reduce((acc, curr)=>{
+//normal method
+/* const product = arr.reduce((acc, curr)=>{
     return acc*curr;
 
 },1);
-console.log(product);
+console.log(product); */
+//arrow method
+const sum =((acc,curr)=>{
+    return acc*curr;
+},[0]);
+// call back
+const final = arr.reduce(sum);
+console.log(final);
 
