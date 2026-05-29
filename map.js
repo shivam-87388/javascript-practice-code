@@ -456,9 +456,10 @@ const small = arr.reduce((acc,curr)=>{
     
     /* arrow function  */
 const sum = (acc,curr)=>{
-if (acc >= curr) {
+if (acc < curr) {
     return acc;
-};
+}
+return acc;
 };
 
 const final = arr.reduce(sum,arr[0]);
