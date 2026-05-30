@@ -532,8 +532,17 @@ const large = (acc,curr) => {
 // Find the first number greater than 50.
 const arr = [10, 20, 60, 70, 80];
 
-/* normal method */
-const greater = arr.find((num)=>{
-return num > 50;
+/* normal method 
+const greater = arr.find((num) => {
+  return num > 50;
 });
-console.log(greater);
+console.log(greater); */
+
+/* arrow function */
+const greater = (num)=>{
+    return num > 50;
+};
+
+//call back
+const greaterno = arr.find(greater);
+console.log(greaterno);
