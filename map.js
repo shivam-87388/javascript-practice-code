@@ -567,7 +567,7 @@ const finaleven = arr.find(even);
 console.log(finaleven); */
 
 //Find the first odd number.
-const arr = [2, 4, 6, 7, 8];
+//const arr = [2, 4, 6, 7, 8];
 
 /* normal method 
 const odd = arr.find((num)=>{
@@ -575,11 +575,20 @@ return num % 2 !== 0;
 });
 console.log(odd); */
 
-/* arrow function */
+/* arrow function
 const odd = (num)=>{
     return num % 2 !== 0;
 };
 
 //call back
 const finalodd = arr.find(odd);
-console.log(finalodd);
+console.log(finalodd);  */
+
+//Find the first number divisible by 5.
+const arr = [3, 7, 11, 20, 25];
+
+//normal method
+const divisibleno = arr.find((num)=>{
+return num % 5 ===0 ;
+});
+console.log(divisibleno);
