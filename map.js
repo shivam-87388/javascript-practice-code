@@ -548,7 +548,7 @@ const greaterno = arr.find(greater);
 console.log(greaterno); */
 
 //Find the first even number.
-const arr = [1, 3, 5, 8, 10];
+//const arr = [1, 3, 5, 8, 10];
 
 /* normal method
 const even = arr.find((num)=>{
@@ -557,11 +557,20 @@ const even = arr.find((num)=>{
 });
 console.log(even); */
 
-/* arrow method */
+/* arrow method 
 const even = (num)=>{
     return num % 2 === 0;
 };
 
 //call back
 const finaleven = arr.find(even);
-console.log(finaleven);
+console.log(finaleven); */
+
+//Find the first odd number.
+const arr = [2, 4, 6, 7, 8];
+
+/* normal method */
+const odd = arr.find((num)=>{
+return num % 2 !== 0;
+});
+console.log(odd)
