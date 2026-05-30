@@ -488,9 +488,17 @@ const large = (acc,curr) => {
     // add all the prices
     const prices = [100,200,300];
 
-    /* normal method */
+    /* normal method 
     const price = prices.reduce((acc,curr) => {
         return acc+curr;
     },100);
-    console.log(price);
+    console.log(price); */
+
+    /* arrow function */
+    const price = (acc,curr)=>{
+        return acc+curr;
+    };
+    //call back 
+    const finalprice = prices.reduce(price);
+    console.log(finalprice);
 
