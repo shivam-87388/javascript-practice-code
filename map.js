@@ -585,7 +585,7 @@ const finalodd = arr.find(odd);
 console.log(finalodd);  */
 
 //Find the first number divisible by 5.
-const arr = [3, 7, 11, 20, 25];
+//const arr = [3, 7, 11, 20, 25];
 
 /* normal method
 const divisibleno = arr.find((num)=>{
@@ -593,10 +593,36 @@ return num % 5 ===0 ;
 });
 console.log(divisibleno); */
 
-/* arrow function */
+/* arrow function 
 const divisible = (num)=>{
     return num % 5 ===0;
 };
 //call back 
 const finalans = arr.find(divisible);
-console.log(finalans);
+console.log(finalans); */
+
+
+//Find the first name whose length is greater than 4.
+
+/* fnd the strimg length by map method */
+const names = ["Ram", "Aman", "Rahul", "Shivam"];
+
+const namelength = names.map((value)=>{
+    return value.length;
+
+});
+
+/* normal method
+const finalname = namelength.find((value)=>{
+    return value > 4;
+
+});
+console.log(finalname) */
+
+/* arrow method 
+const name = (value)=>{
+    return value > 4;
+};
+// call back
+const finalans = namelength.find(name);
+console.log(finalans); */ 
