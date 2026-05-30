@@ -503,12 +503,12 @@ const large = (acc,curr) => {
     console.log(finalprice);
 
     // count all the character
-    const word = ["hi", "hello", "bye"];
+    //const word = ["hi", "hello", "bye"];
 
-    /* use map for findinf the string length */
+    /* use map for findinf the string length 
     const wordlength = word.map((value) => {
         return value.length;
-    }); 
+    }); */
     
    /* normal method
     const finallength= wordlength.reduce((acc,curr)=>{
@@ -516,9 +516,11 @@ const large = (acc,curr) => {
 
      },0);
      console.log(finallength); */
+
+     /* arrow function
      const wordlen = (acc,curr)=>{
         return acc+curr;
      };
      //call back
      const finallength = wordlength.reduce(wordlen);
-     console.log(finallength);
+     console.log(finallength); */
