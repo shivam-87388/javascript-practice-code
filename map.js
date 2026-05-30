@@ -2,7 +2,7 @@
 /* map never change in original array
 map give a new array */
 
- /* let arr = [45,23,21];
+/* let arr = [45,23,21];
 arr.map((value,index,arr)=>{
     console.log(value,index,arr);
 })
@@ -59,7 +59,6 @@ call back
 const finalans = arr.map(square);
 console.log(finalans)
 */
-
 
 /* Add 10 to every number by arrow function
 const arr = [5,10,15];
@@ -195,7 +194,6 @@ const cube = arr.map((num) => {
 });
 console.log(cube); */
 
-
 /* // arrow function
 const cube = (num)=>{
     return num**3;
@@ -205,7 +203,6 @@ const cube = (num)=>{
 
 const finalans = arr.map(cube);
 console.log(finalans); */
-
 
 /* // Double the numbers
 const arr = [1,2,3,4];
@@ -223,7 +220,7 @@ return number+number;
 
 // call back
 const cubeAns = arr.map(double);
-console.log(cubeAns); */ 
+console.log(cubeAns); */
 
 // Add 18% GST to every price
 //const prices = [100, 200, 300];
@@ -263,7 +260,6 @@ const name = (username) => {
 const finalName = names.map(name);
 console.log(finalName); */
 
-
 //********************************* filter method ***********************************************
 
 //filter method is used to filtering the data from the given array and return the filtered array
@@ -285,7 +281,7 @@ console.log(greaterno); */
 const finalans = arr.filter(greater);
 console.log(finalans); */
 
-// get all the even no 
+// get all the even no
 //const arr = [1,2,3,4,5,6];
 
 //normal method
@@ -374,7 +370,6 @@ console.log(finalprice); */
 const final = prices.filter(price);
 console.log(final); */
 
-
 /********************************************* reduce method ************************************************/
 /* 
 deceleration
@@ -453,8 +448,8 @@ const small = arr.reduce((acc,curr)=>{
     }
     },10);
     console.log(small); */
-    
-    /* arrow function  
+
+/* arrow function  
 const sum = (acc,curr)=>{
 if (acc < curr) {
     return acc;
@@ -466,9 +461,9 @@ const final = arr.reduce(sum,arr[0]);
 console.log(final) */
 
 // find the largest number
-const arr = [10,50,20,5];
+const arr = [10, 50, 20, 5];
 
-/* normal method */
+/* normal method 
 const largest = arr.reduce((acc,curr)=>{
     if (acc > curr) {
         return acc;
@@ -477,4 +472,16 @@ const largest = arr.reduce((acc,curr)=>{
     return curr;
 
 },10)
-console.log(largest)
+console.log(largest) */
+
+/* arrow function */
+const large = (acc,curr) => {
+    if (acc > curr) {
+        return acc;    
+    }
+    return curr;
+    };
+    //call back 
+    const final =  arr.reduce(large);
+    console.log(final)
+
