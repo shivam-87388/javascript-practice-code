@@ -371,6 +371,7 @@ const final = prices.filter(price);
 console.log(final); */
 
 /********************************************* reduce method ************************************************/
+// reduce method always return single value from the array
 /* 
 deceleration
 
@@ -461,7 +462,7 @@ const final = arr.reduce(sum,arr[0]);
 console.log(final) */
 
 // find the largest number
-const arr = [10, 50, 20, 5];
+//const arr = [10, 50, 20, 5];
 
 /* normal method 
 const largest = arr.reduce((acc,curr)=>{
@@ -486,7 +487,7 @@ const large = (acc,curr) => {
     console.log(final)  */
 
     // add all the prices
-    const prices = [100,200,300];
+    //const prices = [100,200,300];
 
     /* normal method 
     const price = prices.reduce((acc,curr) => {
@@ -494,13 +495,13 @@ const large = (acc,curr) => {
     },100);
     console.log(price); */
 
-    /* arrow function */
+    /* arrow function 
     const price = (acc,curr)=>{
         return acc+curr;
     };
     //call back 
     const finalprice = prices.reduce(price);
-    console.log(finalprice);
+    console.log(finalprice); */
 
     // count all the character
     //const word = ["hi", "hello", "bye"];
@@ -524,3 +525,15 @@ const large = (acc,curr) => {
      //call back
      const finallength = wordlength.reduce(wordlen);
      console.log(finallength); */
+
+/************************************************ find method **********************************************************/
+//The find() method is used to return the first element in an array that satisfies a given condition. If no element matches the condition, it returns undefined.
+
+// Find the first number greater than 50.
+const arr = [10, 20, 60, 70, 80];
+
+/* normal method */
+const greater = arr.find((num)=>{
+return num > 50;
+});
+console.log(greater);
