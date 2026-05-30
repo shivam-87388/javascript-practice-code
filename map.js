@@ -441,7 +441,7 @@ const finalSum = arr.reduce(sum,0);
 console.log(finalSum); */
 
 //Find smallest number.
-const arr = [10,50,20,5];
+//const arr = [10,50,20,5];
 
 /* normal method 
 const small = arr.reduce((acc,curr)=>{
@@ -454,13 +454,27 @@ const small = arr.reduce((acc,curr)=>{
     },10);
     console.log(small); */
     
-    /* arrow function  */
+    /* arrow function  
 const sum = (acc,curr)=>{
 if (acc < curr) {
     return acc;
 }
-return acc;
+return curr;
 };
-
+//call back
 const final = arr.reduce(sum,arr[0]);
-console.log(final)
+console.log(final) */
+
+// find the largest number
+const arr = [10,50,20,5];
+
+/* normal method */
+const largest = arr.reduce((acc,curr)=>{
+    if (acc > curr) {
+        return acc;
+        
+    }
+    return curr;
+
+},10)
+console.log(largest)
