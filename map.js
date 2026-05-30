@@ -587,8 +587,16 @@ console.log(finalodd);  */
 //Find the first number divisible by 5.
 const arr = [3, 7, 11, 20, 25];
 
-//normal method
+/* normal method
 const divisibleno = arr.find((num)=>{
 return num % 5 ===0 ;
 });
-console.log(divisibleno);
+console.log(divisibleno); */
+
+/* arrow function */
+const divisible = (num)=>{
+    return num % 5 ===0;
+};
+//call back 
+const finalans = arr.find(divisible);
+console.log(finalans);
