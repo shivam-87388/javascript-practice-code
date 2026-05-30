@@ -474,7 +474,7 @@ const largest = arr.reduce((acc,curr)=>{
 },10)
 console.log(largest) */
 
-/* arrow function */
+/* arrow function
 const large = (acc,curr) => {
     if (acc > curr) {
         return acc;    
@@ -483,5 +483,14 @@ const large = (acc,curr) => {
     };
     //call back 
     const final =  arr.reduce(large);
-    console.log(final)
+    console.log(final)  */
+
+    // add all the prices
+    const prices = [100,200,300];
+
+    /* normal method */
+    const price = prices.reduce((acc,curr) => {
+        return acc+curr;
+    },100);
+    console.log(price);
 
