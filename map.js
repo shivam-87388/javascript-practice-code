@@ -502,3 +502,16 @@ const large = (acc,curr) => {
     const finalprice = prices.reduce(price);
     console.log(finalprice);
 
+    // count all the character
+    const word = ["hi", "hello", "bye"];
+
+    const wordlength = word.map((value) => {
+        return value.length;
+    });
+    console.log(wordlength);
+
+    const finallength= wordlength.reduce((acc,curr)=>{
+        return acc+curr
+
+     },0);
+     console.log(finallength);
