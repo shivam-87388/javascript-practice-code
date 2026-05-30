@@ -505,13 +505,20 @@ const large = (acc,curr) => {
     // count all the character
     const word = ["hi", "hello", "bye"];
 
+    /* use map for findinf the string length */
     const wordlength = word.map((value) => {
         return value.length;
-    });
-    console.log(wordlength);
-
+    }); 
+    
+   /* normal method
     const finallength= wordlength.reduce((acc,curr)=>{
         return acc+curr
 
      },0);
+     console.log(finallength); */
+     const wordlen = (acc,curr)=>{
+        return acc+curr;
+     };
+     //call back
+     const finallength = wordlength.reduce(wordlen);
      console.log(finallength);
