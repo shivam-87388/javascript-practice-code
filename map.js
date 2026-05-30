@@ -569,8 +569,17 @@ console.log(finaleven); */
 //Find the first odd number.
 const arr = [2, 4, 6, 7, 8];
 
-/* normal method */
+/* normal method 
 const odd = arr.find((num)=>{
 return num % 2 !== 0;
 });
-console.log(odd)
+console.log(odd); */
+
+/* arrow function */
+const odd = (num)=>{
+    return num % 2 !== 0;
+};
+
+//call back
+const finalodd = arr.find(odd);
+console.log(finalodd);
