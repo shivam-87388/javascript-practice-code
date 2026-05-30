@@ -604,13 +604,13 @@ console.log(finalans); */
 
 //Find the first name whose length is greater than 4.
 
-/* fnd the strimg length by map method */
+/* fnd the strimg length by map method 
 const names = ["Ram", "Aman", "Rahul", "Shivam"];
 
 const namelength = names.map((value)=>{
     return value.length;
 
-});
+}); */
 
 /* normal method
 const finalname = namelength.find((value)=>{
@@ -626,3 +626,47 @@ const name = (value)=>{
 // call back
 const finalans = namelength.find(name);
 console.log(finalans); */ 
+
+//Find the user whose id is 2.
+const users = [
+  { id: 1, name: "Aman" },
+  { id: 2, name: "Rahul" },
+  { id: 3, name: "Shivam" }
+];
+
+/* normal method
+const user = users.find((value)=>{
+return value.id ===2;
+}); 
+console.log(user); */
+
+/* arrow function 
+const user = (value)=>{
+    return value.id === 2;
+};
+//call back
+const finalans = users.find(user);
+console.log(finalans); */
+
+//Find the first out-of-stock product.
+const products = [
+  { name: "Laptop", stock: 5 },
+  { name: "Mouse", stock: 2 },
+  { name: "Keyboard", stock: 0 },
+  { name: "Monitor", stock: 10 }
+];
+
+const out = products.find((quantity)=>{
+return quantity.stock  === 0 ;
+});
+console.log(out);
+
+
+/* | Method     | Returns                  |
+| ---------- | ------------------------ |
+| `find()`   | First matching value     |
+| `some()`   | `true` / `false`         |
+| `filter()` | Array of matching values |
+| `map()`    | New transformed array    |
+| `reduce()` | Single final value       | */
+      
