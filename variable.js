@@ -38,4 +38,8 @@ const order={
 console.log(order);
 
 const num = 5;
-
+let fact = 1;
+for (let i = 1; i < array.length; i++) {
+    const element = array[i];
+    
+}
