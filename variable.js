@@ -36,3 +36,6 @@ const order={
     rating:4.5,
 }
 console.log(order);
+
+const num = 5;
+
