@@ -40,6 +40,6 @@ console.log(order);
 const num = 5;
 let fact = 1;
 for (let i = 1; i <= num; i++) {
-    const element = array[i];
+    fact = fact*i
     
 }
