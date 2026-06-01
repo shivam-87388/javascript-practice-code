@@ -39,8 +39,8 @@ console.log(order);
 
 const num = 5;
 let fact = 1;
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+for (let i = 1 < array.lengt++) {
+    const element = arr];
     
 }
     
