@@ -314,3 +314,15 @@ newarr.push(array[i]);
 }
 console.log(newarr.reverse());
 
+/*
+
+| Method      | Kya Karta Hai?           | Original Array Badalta Hai? | Kya Return Karta Hai?  |
+| ----------- | ------------------------ | --------------------------- | ---------------------- |
+| `push()`    | Last mein add            | ✅ Haan                      | New length             |
+| `pop()`     | Last se remove           | ✅ Haan                      | Removed item           |
+| `unshift()` | Start mein add           | ✅ Haan                      | New length             |
+| `shift()`   | Start se remove          | ✅ Haan                      | Removed item           |
+| `slice()`   | Part ki copy nikalta hai mtlb jitna part bologe utna part cut krke de dega | ❌ Nahi                      | New array              |
+| `splice()`  | Add / Remove / Replace   | ✅ Haan                      | Removed items ka array |
+
+*/
