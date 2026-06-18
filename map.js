@@ -695,3 +695,8 @@ const newnum = numbers.filter((value)=>{
                 }
             })
             console.log(prime);
+
+            let fruit =  ["apple","banana"];
+            let newfruit = fruit.splice((1,0,"banana")=>{
+
+            });
