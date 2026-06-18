@@ -669,4 +669,29 @@ console.log(out);
 | `filter()` | Array of matching values |
 | `map()`    | New transformed array    |
 | `reduce()` | Single final value       | */
-      
+
+
+/* double of array/
+      let double = [1,2,3,4,5];
+      const newArr = double.map((element)=>{
+      console.log(element*element);
+      }) */
+/* find the no which is greater than 25 */
+/* const numbers = [10, 25, 30, 45, 50];
+
+const newnum = numbers.filter((value)=>{
+            return( value > 25);
+               
+            })
+            console.log(newnum); */
+
+            /* check prime number */
+            const numbers = [10, 25, 30, 45, 50];
+            const prime =  numbers.map((element)=>{
+                if (element % 2) {
+                    return (element);
+
+                    
+                }
+            })
+            console.log(prime);
