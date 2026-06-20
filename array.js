@@ -314,6 +314,7 @@ newarr.push(array[i]);
 }
 console.log(newarr.reverse()); */
 
+/*
 const arr = [1,2,3];
 const newarr = arr.map((element)=>{
      num = element*2;
@@ -321,6 +322,17 @@ const newarr = arr.map((element)=>{
      return (num);
     });
 console.log(newarr);
+*/
+const arr = [1,1,2,3,2,3];
+let newarr = [];
+const double = arr.forEach((element)=>{
+if (element=) {
+    
+} else {
+    
+}
+
+})
 
 
 
