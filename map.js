@@ -688,15 +688,16 @@ const newnum = numbers.filter((value)=>{
             /* check prime number */
             const numbers = [10, 25, 30, 45, 50];
             const prime =  numbers.map((element)=>{
-                if (element % 2) {
-                    return (element);
-
-                    
+                if (element % 1=== 0) {
+                    return (element); 
+                    if (element % element ==0) {
+                        return element
+                        
+                    }  
                 }
             })
             console.log(prime);
 
-            let fruit =  ["apple","banana"];
-            let newfruit = fruit.splice((1,0,"banana")=>{
-
-            });
+            const fruit =  ["apple","banana"];
+           const newfruit =[...fruit, "mango"];
+           console.log(newfruit);
