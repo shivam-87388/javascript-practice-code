@@ -314,8 +314,13 @@ newarr.push(array[i]);
 }
 console.log(newarr.reverse()); */
 
-const date
-
+const arr = [1,2,3];
+const newarr = arr.map((element)=>{
+     num = element*2;
+     
+     return (num);
+    });
+console.log(newarr);
 
 
 
