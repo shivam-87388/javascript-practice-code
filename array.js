@@ -323,16 +323,21 @@ const newarr = arr.map((element)=>{
     });
 console.log(newarr);
 */
-const arr = [1,1,2,3,2,3];
-let newarr = [];
-const double = arr.forEach((element)=>{
-if (element=) {
-    
-} else {
-    
-}
+check freq of arr
+const arr = [1,1,2,2,3,3];
+const nn ={};
+const newarr = arr.forEach((element)=>{
+    if (nn[element]) {
+        nn[element]+= 1
+        
+    } else {
+        nn[element] = 1
+        
+    }
 
 })
+console.log(nn);
+
 
 
 
