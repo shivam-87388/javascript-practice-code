@@ -153,6 +153,8 @@ let newarray = arr.map((val)=>{
 });
 console.log(newarray);
 
+let obj ={};
+
 
   
 

@@ -628,11 +628,11 @@ const finalans = namelength.find(name);
 console.log(finalans); */ 
 
 //Find the user whose id is 2.
-const users = [
+/* const users = [
   { id: 1, name: "Aman" },
   { id: 2, name: "Rahul" },
   { id: 3, name: "Shivam" }
-];
+]; */
 
 /* normal method
 const user = users.find((value)=>{
@@ -701,3 +701,17 @@ const newnum = numbers.filter((value)=>{
             const fruit =  ["apple","banana"];
            const newfruit =[...fruit, "mango"];
            console.log(newfruit);
+
+           const users = [
+             { id: 1, name: "Aman" },
+             { id: 2, name: "Rahul" },
+             { id: 3, name: "Shivam" },
+           ];
+
+const newuser = users.find((value)=>{
+    return value.id === 2;
+
+
+});
+
+console.log(newuser);
