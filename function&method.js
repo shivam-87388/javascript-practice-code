@@ -155,7 +155,7 @@ console.log(newarray);
 
 let obj ={};
 obj.color = "red";
-
+ console.log(obj);
 
   
 
