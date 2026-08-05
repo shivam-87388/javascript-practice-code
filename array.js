@@ -339,6 +339,9 @@ const newarr = arr.forEach((element)=>{
 console.log(nn);
 
 
+let newArr = [10,15,20,25,30];
+
+
 
 
 /*
