@@ -323,20 +323,25 @@ const newarr = arr.map((element)=>{
     });
 console.log(newarr);
 */
-check freq of arr
-const arr = [1,1,2,2,3,3];
-const nn ={};
-const newarr = arr.forEach((element)=>{
-    if (nn[element]) {
-        nn[element]+= 1
+// check freq of arr
+// const arr = [1,1,2,2,3,3];
+// const nn ={};
+// const newarr = arr.forEach((element)=>{
+//     if (nn[element]) {
+//         nn[element]+= 1
         
-    } else {
-        nn[element] = 1
+//     } else {
+//         nn[element] = 1
         
-    }
+//     }
 
-})
-console.log(nn);
+// })
+// console.log(nn);
+
+/* let pn = [{ _id: "64f1", addtodo: "Coding karni hai" },
+  { _id: "64f4", addtodo: "Gym jana hai" }];
+
+  console.log(pn[0]); */
 
 
 

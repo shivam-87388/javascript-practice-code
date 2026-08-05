@@ -102,6 +102,15 @@ operator  examples result*/
 
  }*/
 
+let checkUser ={
+    name:"shivam singh"
+
+}
+if (checkUser ) {
+    console.log("login successfully");
+
+    
+}
 
 
     
