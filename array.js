@@ -344,6 +344,9 @@ console.log(newarr);
   console.log(pn[0]); */
 
 
+let newArr = [10,15,20,25,30];
+
+
 
 
 /*
