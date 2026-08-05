@@ -343,14 +343,16 @@ console.log(newarr);
 
   console.log(pn[0]); */
 
+  //find the frequency of the number which is divisible by 2
 
 let newArr = [10,15,20,25,30];
-let fake =[];
+let count = 0;
 for (let i = 0; i < newArr.length; i++) {
     if (newArr[i] % 2 == 0 ) {
-     console.log(newArr[i]);        
+    count++;       
     }
 }
+console.log(count)
 
 
 
