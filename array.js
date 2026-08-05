@@ -345,6 +345,12 @@ console.log(newarr);
 
 
 let newArr = [10,15,20,25,30];
+let fake =[];
+for (let i = 0; i < newArr.length; i++) {
+    if (newArr[i] % 2 == 0 ) {
+     console.log(newArr[i]);        
+    }
+}
 
 
 
