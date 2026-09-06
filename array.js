@@ -355,7 +355,7 @@ for (let i = 0; i < newArr.length; i++) {
 console.log(count)
 
 
-ler arr =[];
+
 
 
 
